@@ -1,0 +1,19 @@
+/** @format */
+
+@font-face {
+	font-family: PT Sans Regular sans-serif;
+	src: url('/fonts/ptsans-400.woff2');
+	font-weight: 400;
+}
+@font-face {
+	font-family: PT Sans Bold sans-serif;
+	src: url('/fonts/ptsans-700.woff2');
+	font-weight: 700;
+}
+
+body {
+}
+
+.hero {
+	background-image: url('/images/background.png');
+}
