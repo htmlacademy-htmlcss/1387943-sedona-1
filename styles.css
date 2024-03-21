@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "PT Sans", sans-serif;
+	src: url('/fonts/ptsans-400.woff2');
+	font-weight: 400;
+}
+@font-face {
+	font-family: "PT Sans Bold", sans-serif;
+	src: url('/fonts/ptsans-700.woff2');
+	font-weight: 700;
+}
+
+
+nav {
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+text-transform: capitalize;
+}
+
+button {
+font-weight: 700;
+font-size: 16px;
+line-height: 125%;
+text-transform: uppercase;
+text-align: center;
+}
+
+h2{
+font-weight: 700;
+font-size: 30px;
+line-height: 120%;
+text-transform: uppercase;
+text-align: center;
+}
+
+p{
+font-weight: 400;
+font-size: 18px;
+line-height: 117%;
+text-align:center;
+}
+
+.hero{
+background-image: url("../images/background.png");
+background-repeat: no-repeat;
+text-align: center;
+}
+
+.subscribe{
+background-image: url("../images/subscribe.png");
+background-repeat: no-repeat;
+text-align:center;
+}
+
+h3{
+font-weight: 700;
+font-size: 30px;
+line-height: 120%;
+text-transform: uppercase;
+}
