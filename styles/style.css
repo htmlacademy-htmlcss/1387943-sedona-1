@@ -48,3 +48,80 @@
 	--forms-elements-1: #e5e5e5;
 	--forms-elements-2: #f2f2f2;
 }
+
+html{
+  height: 100%;
+}
+
+body{
+   font-family: "PT sans", "Arial", sans-serif;
+   font-size: 18px;
+   line-height: 21px;
+   background-color: #ffffff;
+   margin: 0;
+   color: #000000;
+}
+
+.navigation{
+ font-family: "PT sans", "Arial", sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation_logo_item{
+font-family: "PT sans", "Arial", sans-serif;
+width: 138px;
+height: 64px;
+margin:right;
+}
+
+.menu_list{
+font-family: "PT sans", "Arial", sans-serif;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+.menu_item {
+font-family: "PT sans", "Arial", sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+text-transform: capitalize;
+color: var(--texts-texts-basic);
+}
+
+.user_menu{
+ max-width: 300px;
+  margin-left: auto;
+}
+
+.advantages_titles{
+font-family: "PT sans", "Arial", sans-serif;
+font-weight: 700;
+font-size: 30px;
+line-height: 120%;
+text-transform: uppercase;
+text-align: center;
+color: var(--texts-texts-basic);
+}
+
+.advantages_subtitles{
+font-family: "PT sans", "Arial", sans-serif;
+font-weight: 400;
+font-size: 22px;
+line-height: 118%;
+text-align: center;
+color: var(--texts-second);
+}
+
+.advantages_list{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.advantages_plus{
+
+
+}
