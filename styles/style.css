@@ -1,15 +1,15 @@
 /** @format */
 
 @font-face {
-	font-family: "PT Sans" Arial,sans-serif;
-	src: url('../fonts/ptsans-400.woff2');
+	font-family: 'PT Sans' Arial, sans-serif;
+	src: url('../fonts/ptsans-400.woff2z');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
-	font-family:"PT Sans" Arial,sans-serif;
-	src: url('../fonts/ptsans-700.woff2');
+	font-family: 'PT Sans' Arial, sans-serif;
+	src: url('../fonts/ptsans-400.woff2z');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -49,79 +49,328 @@
 	--forms-elements-2: #f2f2f2;
 }
 
-html{
-  height: 100%;
+html {
+	height: 100%;
 }
 
-body{
-   font-family: "PT sans", "Arial", sans-serif;
-   font-size: 18px;
-   line-height: 21px;
-   background-color: #ffffff;
-   margin: 0;
-   color: #000000;
+body {
+	font-family: 'PT sans', 'Arial', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	background-color: #ffffff;
+	margin: 0;
+	color: #000000;
 }
 
-.navigation{
- font-family: "PT sans", "Arial", sans-serif;
-  width: 1200px;
-  margin: 0 auto;
+.navigation {
+	font-family: 'PT sans', 'Arial', sans-serif;
+	width: 1200px;
+	margin: 0 auto;
 }
 
-.navigation_logo_item{
-font-family: "PT sans", "Arial", sans-serif;
-width: 138px;
-height: 64px;
-margin:right;
+.navigation_logo_item {
+	font-family: 'PT sans', 'Arial', sans-serif;
+	width: 138px;
+	height: 64px;
+	margin: right;
 }
 
-.menu_list{
-font-family: "PT sans", "Arial", sans-serif;
-margin: 0;
-padding: 0;
-list-style-type: none;
+.menu_list {
+	font-family: 'PT sans', 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 
 .menu_item {
-font-family: "PT sans", "Arial", sans-serif;
-font-weight: 700;
-font-size: 20px;
-line-height: 120%;
-text-transform: capitalize;
-color: var(--texts-texts-basic);
+	font-family: 'PT sans', 'Arial', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 120%;
+	text-transform: capitalize;
+	color: var(--texts-texts-basic);
 }
 
-.user_menu{
- max-width: 300px;
-  margin-left: auto;
+.user_menu {
+	max-width: 300px;
+	margin-left: auto;
 }
 
-.advantages_titles{
-font-family: "PT sans", "Arial", sans-serif;
-font-weight: 700;
-font-size: 30px;
-line-height: 120%;
-text-transform: uppercase;
-text-align: center;
-color: var(--texts-texts-basic);
+.advantages_list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-.advantages_subtitles{
-font-family: "PT sans", "Arial", sans-serif;
-font-weight: 400;
-font-size: 22px;
-line-height: 118%;
-text-align: center;
-color: var(--texts-second);
+.advantages_titles {
+	font-family: 'PT sans', 'Arial', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 120%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-texts-basic);
 }
 
-.advantages_list{
-margin: 0;
+.advantages_subtitles {
+	font-family: 'PT sans', 'Arial', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 118%;
+	text-align: center;
+	color: var(--texts-second);
+}
+
+.advantages_plus_town {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 117%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-background-deafault);
+}
+
+.advantages_plus_life {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 117%;
+	text-align: center;
+	color: var(--texts-background-deafault);
+}
+
+.advantages_area_square {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 117%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-texts-basic);
+}
+
+.advantages_area_lions {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 117%;
+	text-align: center;
+	color: var(--texts-second);
+}
+
+.advantages_route_beatiful {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 117%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-texts-basic);
+}
+
+.advantages_route_driving {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 117%;
+	text-align: center;
+	color: var(--texts-second);
+}
+
+.advantages_ride_tourists {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 117%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-texts-basic);
+}
+
+.advantages_ride_generality {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 117%;
+	text-align: center;
+	color: var(--texts-second);
+}
+
+.advantages_bridge_item {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 117%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-background-deafault);
+}
+
+.advantages_bridge_brave {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 117%;
+	text-align: center;
+	color: var(--texts-background-deafault);
+}
+
+.attractions_go {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 120%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-texts-basic);
+}
+
+.attractions_text {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 118%;
+	text-align: center;
+	color: var(--texts-second);
+}
+
+.attractions_house {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 117%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-texts-basic);
+}
+
+.attractions_recomendation {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 117%;
+	text-align: center;
+	color: var(--texts-second);
+}
+
+.attractions_food_item {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 117%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-texts-basic);
+}
+
+.attractions_forever {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 117%;
+	text-align: center;
+	color: var(--texts-second);
+}
+
+.attraction_souvenirs_item {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 117%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-texts-basic);
+}
+
+.attractions_description {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 117%;
+	text-align: center;
+	color: var(--texts-second);
+}
+
+.drive_question {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 120%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-texts-basic);
+}
+
+.drive_date {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 118%;
+	text-align: center;
+	color: var(--texts-second);
+}
+
+.search_button {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 180%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-background-deafault);
+	border-radius: 4px;
+	padding: 8px 50px;
+	width: 376px;
+	height: 52px;
+}
+
+.subscribe {
+	background-image: url(../images/subscribe.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #ffffff;
+}
+
+.subscribe_title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 120%;
+	text-transform: uppercase;
+	color: var(--texts-background-deafault);
+}
+
+.susbscribe_desсription {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 118%;
+	text-align: center;
+	color: var(--texts-background-deafault);
+}
+
+.subscribe_button {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 180%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-background-deafault);
+	border-radius: 0 4px 4px 0;
+	padding: 8px 50px;
+	width: 232px;
+	height: 52px;
+	background: var(--buttons-second);
+}
+
+.footer_social_block{
+width: 142px;
+margin-right: 42px;
+}
+
+.footer_phone{
+  width: 720px;
+  margin-right: 42px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration-line: none;
+  color: var(--texts-texts-basic);
+}
+
+.footer_logo{
+width: 115px;
+height: 33px;
+fill: var(--texts-texts-basic);
+}
+
+
+.infrastructure{
+width: 150px;
+height: 157px;
 padding: 0;
-list-style: none;
-}
-
-
-
-
-}
+border: 0;
+margin-right: 70px;
