@@ -1,14 +1,14 @@
 
 @font-face {
 	font-family: "PT Sans";
-	src: url('../fonts/ptsans-400.woff2');
+	src: url("../fonts/ptsans-400.woff2");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 @font-face {
 	font-family: "PT Sans";
-	src: url('../fonts/ptsans-400.woff2');
+	src: url("../fonts/ptsans-400.woff2");
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -67,7 +67,7 @@ body {
 }
 
 .hero {
-	background-image: url(../images/background.png);
+	background-image: url("../images/background.png");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	text-align: center;
@@ -253,7 +253,7 @@ body {
 }
 
 .attraction_souvenirs_item {
-	font-family: 'PT Sans' Arial, sans-serif;
+	font-family: "PT Sans", Arial, sans-serif;
 	font-weight: 700;
 	font-size: 24px;
 	text-transform: uppercase;
@@ -262,7 +262,7 @@ body {
 }
 
 .attractions_description {
-	font-family: 'PT Sans' Arial, sans-serif;
+	font-family: "PT Sans", Arial, sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	text-align: center;
@@ -270,7 +270,7 @@ body {
 }
 
 .drive_question {
-	font-family: 'PT Sans' Arial, sans-serif;
+	font-family: "PT Sans", Arial, sans-serif;
 	font-weight: 700;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -301,7 +301,7 @@ body {
 }
 
 .subscribe {
-	background-image: url(../images/subscribe.jpg);
+	background-image: url("../images/subscribe.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -369,7 +369,7 @@ body {
 }
 
 .inside_header {
-	background-image: url(../images/filtres.jpg);
+	background-image: url("../images/filtres.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-color: #000000;
@@ -496,7 +496,7 @@ body {
 }
 
 .product_card_title {
-	font-family: 'PT Sans' Arial, sans-serif;
+	font-family: "PT Sans", Arial, sans-serif;
 	font-weight: 700;
 	font-size: 24px;
 	color: var(--texts-texts-basic);
