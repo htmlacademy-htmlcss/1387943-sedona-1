@@ -374,3 +374,12 @@ height: 157px;
 padding: 0;
 border: 0;
 margin-right: 70px;
+}
+
+.inside_header{
+background-image: url(../images/filters.jpg);
+background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #000000;
+  color: #ffffff;
+}
