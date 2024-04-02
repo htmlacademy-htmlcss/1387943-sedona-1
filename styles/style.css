@@ -394,15 +394,192 @@ body {
 	list-style-type: none;
 }
 
-.breadcrumbs_item_home{
-fill: var(--texts-background-deafault);
+.breadcrumbs_item_home {
+	fill: var(--texts-background-deafault);
 }
 
-.breadcrumbs_item_hotel{
-width: 73px;
-height: 21px;
-font-weight: 400;
+.breadcrumbs_item_hotel {
+	width: 73px;
+	height: 21px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 131%;
+	color: var(--texts-background-deafault);
+}
+
+.infrastructure_filters {
+	list-style: none;
+}
+
+.infrastructure_title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 120%;
+	color: var(--texts-background-deafault);
+	text-align: center;
+}
+
+.infrastructure_filters-items {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 128%;
+	color: var(--texts-background-deafault);
+}
+
+.price_list {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 120%;
+	text-transform: capitalize;
+	color: var(--texts-background-deafault);
+	width: 143px;
+	height: 48px;
+	border-radius: 4px 0 0 4px;
+	padding: 12px 20px;
+}
+
+.price_item_button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 125%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-background-deafault);
+	border-radius: 4px;
+	padding: 8px 50px;
+	width: 191px;
+	height: 36px;
+}
+
+.button_reset {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 125%;
+	text-transform: uppercase;
+	text-align: center;
+	color: var(--texts-background-deafault);
+	border-radius: 4px;
+	padding: 8px 50px;
+	width: 191px;
+	height: 36px;
+}
+
+.list_hotels {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+
+.list_hotels_title {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 120%;
+	text-transform: uppercase;
+	color: var(--texts-texts-basic);
+}
+
+.select-control {
+	width: 292px;
+	margin-right: 70px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
+	border-radius: 4px;
+	padding: 14px 20px;
+}
+
+.display_menu_link {
+	width: 160px;
+	border: 2px solid var(--buttons-disabled);
+	border-radius: 4px;
+	padding: 14px 12px;
+	width: 48px;
+	height: 48px;
+}
+
+.product_card_list {
+	list-style-type: none;
+}
+
+.product_card_title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 117%;
+	color: var(--texts-texts-basic);
+}
+
+.product_card_hotel {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 117%;
+	color: var(--texts-second);
+}
+
+.product_card_price {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 117%;
+	text-align: right;
+	color: var(--texts-second);
+}
+
+.product_card_favorite{
+font-weight: 700;
 font-size: 16px;
-line-height: 131%;
+line-height: 125%;
+text-transform: uppercase;
+text-align: center;
 color: var(--texts-background-deafault);
+border-radius: 4px;
+padding: 8px 50px;
+width: 140px;
+height: 36px;
+}
+
+.product_card_button{
+border-radius: 4px;
+padding: 8px 50px;
+width: 140px;
+height: 36px;
+font-weight: 700;
+font-size: 16px;
+line-height: 125%;
+text-transform: uppercase;
+text-align: center;
+color: var(--texts-background-deafault);
+background: var(--texts-hover);
+}
+
+.pagination-link{
+font-weight: 700;
+font-size: 20px;
+line-height: 180%;
+text-transform: uppercase;
+text-align: center;
+color: var(--texts-background-deafault);
+border: 1px solid var(--texts-texts-basic);
+border-radius: 4px;
+width: 60px;
+height: 60px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background: var(--buttons-second);
+}
+
+.pagination_current{
+border-radius: 4px;
+width: 60px;
+height: 60px;
+background: var(--forms-elements-2);
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 20px;
+line-height: 180%;
+text-transform: uppercase;
+text-align: center;
+color: var(--texts-texts-basic);
 }

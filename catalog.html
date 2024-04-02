@@ -55,7 +55,7 @@
         <form class="filters" action="https://htmlacademy.ru/" method="get">
           <fieldset class="infrastructure">
             <legend class="infrastructure_title">Инфраструктура</legend>
-            <ul class="infrastructure_filters">
+            <ul class="infrastructure_filters_">
               <li class="infrastructure_filters-items">
                 <label for="#"> <input type="checkbox">Бассейн </label>
               </li>
@@ -68,10 +68,10 @@
             </ul>
           </fieldset>
 
-          <fieldset class="type of housing">
-            <legend class="type of housing_group">Тип жилья</legend>
-            <ul>
-              <li>
+          <fieldset class="infrastructure">
+            <legend class="infrastructure_title">Тип жилья</legend>
+            <ul class="infrastructure_filters_">
+              <li class="infrastructure_filters-items">
                 <label for="#"> <input type="radio">Гостиница </label>
               </li>
               <li>
@@ -96,8 +96,8 @@
         </form>
       </section>
 
-      <section class="list of hotels">
-        <h3 class="list of hotels_title">НАЙДЕНО ГОСТИНИЦ:38</h3>
+      <section class="list_hotels">
+        <h3 class="list_hotels_title">НАЙДЕНО ГОСТИНИЦ:38</h3>
         <select class="select-control" aria-label="Сортировка">
            <option value="popular">Cначала дешёвое</option>
             <option value="cheap">Сначала популярное</option>
@@ -128,8 +128,8 @@
               <img src="images/amararesortspa.jpg" width="300" height="212" alt="Ущелье с видом на звездное небо">
             </a>
             <h3 class="product_card_title">Amara Resort & Spa</h3>
-              <p>Гостиница</p>
-               <b class="product_card_price">от 4000 ₽</b>
+              <p class="product_card_hotel">Гостиница</p>
+              <b class="product_card_price">От 4000р</b>
                 <a href="#">Подробнее</a>
                  <button class="product_card_button" type="button">В Изобранное</button>
                    <span>4 stars</span>
@@ -141,10 +141,10 @@
               <img src="images/desertquail.jpg" width="300" height="212" alt="Горные склоны">
             </a>
             <h3 class="product_card_title">Desert Quail Inn</h3>
-            <p>Гостиница</p>
-              <b class="product_card_price">от 2500 ₽</b>
-               <a href="#">Подробнее</a>
-                 <button class="product_card_button" type="button">В Изобранное</button>
+             <p class="product_card_hotel">Гостиница</p>
+              <b class="product_card_price">От 2500 ₽</b>
+               <a class="product_card_button" href="#">Подробнее</a>
+                 <button class="product_card_favorite" type="button">В Изобранное</button>
                    <span>3 stars</span>
                     <span>Рейтинг 6.9</span>
            </li>
@@ -154,8 +154,8 @@
               <img src="images/villasatpocodiablo.jpg" width="300" height="212" alt="Руины">
             </a>
             <h3>Villas At Poco Diablo</h3>
-            <p>Гостиница</p>
-              <b class="product_card_price">от 5000 ₽</b>
+             <p class="product_card_hotel">Гостиница</p>
+              <b class="product_card_price">От 5000 ₽</b>
                <a href="#">Подробнее</a>
                  <button class="product_card_favorite" type="button">В Изобранное</button>
                    <span>4 stars</span>
@@ -167,8 +167,8 @@
               <img src="images/greentree.jpg" width="300" height="212" alt="Горы">
             </a>
             <h3>GreenTree Inn</h3>
-              <p>Гостиница</p>
-               <b class="product_card_price">от 2500 ₽</b>
+             <p class="product_card_hotel">Гостиница</p>
+               <b class="product_card_price">От 2500 ₽</b>
                 <a href="#">Подробнее</a>
                   <button class="product_card_button" type="button">В Изобранное</button>
                     <span>3 stars</span>
@@ -177,28 +177,28 @@
            </ul>
 
         <ol class="pagination">
-          <li class="pagination-item">
-            <a class="pagination-link pagination-current">1</a>
+          <li class="pagination_item">
+            <a class="pagination-link pagination_current">1</a>
           </li>
 
-          <li class="pagination-item">
+          <li class="pagination_item">
             <a class="pagination-link" href="#">2</a>
           </li>
 
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">3</a>
+          <li class="pagination_item">
+            <a class="pagination_link" href="#">3</a>
           </li>
 
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">4</a>
+          <li class="pagination_item">
+            <a class="pagination_link" href="#">4</a>
           </li>
 
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">...</a>
+          <li class="pagination_item">
+            <a class="pagination_link" href="#">...</a>
           </li>
 
-          <li class="pagination-item">
-            <a class="pagination-link" href="#">10</a>
+          <li class="pagination_item">
+            <a class="pagination_link" href="#">10</a>
           </li>
         </ol>
       </section>
