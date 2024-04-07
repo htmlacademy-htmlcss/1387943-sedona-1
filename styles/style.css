@@ -37,7 +37,7 @@ body {
 }
 
 .menu_list {
- font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -62,6 +62,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+  color: black;
 }
 
 .button {
@@ -77,19 +78,19 @@ body {
   border: none;
 }
 
-.menu{
+.menu {
   font-family: "PT Sans", Arial, sans-serif;
-  display:flex;
-  justify-content:space-between;
-  flex-direction:row;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
-.main_container{
+.main_container {
   flex-grow: 1;
 }
 
-.page_container{
-   width: 1200px;
+.page_container {
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -100,11 +101,10 @@ body {
   text-align: center;
 }
 
-.logo{
+.logo {
   display: block;
   margin: 0 auto;
 }
-
 
 .advantages_list {
   display: flex;
@@ -141,11 +141,11 @@ body {
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
-  text-align:left;
+  text-align: left;
 }
 
 .advantages_plus_life {
-  font-family: "PT Sans" ,Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   text-align: left;
@@ -171,14 +171,14 @@ body {
 }
 
 .advantages_route_driving {
-  font-family: "PT Sans" ,Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   text-align: center;
 }
 
 .advantages_ride_tourists {
-  font-family: "PT Sans" ,Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
@@ -193,11 +193,11 @@ body {
 }
 
 .advantages_bridge_item {
- font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
-  text-align:end;
+  text-align: end;
 }
 
 .advantages_bridge_brave {
@@ -235,7 +235,6 @@ body {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-
 }
 
 .attractions_food_item {
@@ -246,8 +245,9 @@ body {
   text-align: center;
 }
 
-.attractions_recomended, .attractions_souvenirs{
-background-color: rgba(131, 179, 211, 0.20);
+.attractions_recomended,
+.attractions_souvenirs {
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .attractions_list {
@@ -282,7 +282,7 @@ background-color: rgba(131, 179, 211, 0.20);
 }
 
 .drive_question {
-  font-family: "PT Sans",Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
@@ -291,41 +291,40 @@ background-color: rgba(131, 179, 211, 0.20);
 
 .drive_date {
   font-family: "PT Sans", Arial, sans-serif;
- font-weight: 400;
+  font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   color: #333333;
 }
 
-.drive{
-text-align: center;
+.drive {
+  text-align: center;
 }
 
-.subscrube_container{
- width: 684px;
+.subscrube_container {
+  width: 684px;
   margin: 0 auto;
 }
 
 .search_button {
- font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #ffffff;
-    background-color: #756157;
-    text-transform: uppercase;
-    border-radius: 4px;
-    padding: 8px 50px;
-    border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 8px 50px;
+  border: none;
 }
 
 .subscribe {
-  background-image: url(../images/subscribe.jpg);
+  background-image: url("../images/subscribe.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   text-align: center;
 }
-
 
 .subscribe_title {
   font-family: "PT Sans", Arial, sans-serif;
@@ -344,15 +343,15 @@ text-align: center;
 }
 
 .subscribe_button {
-font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #ffffff;
-    background-color: #82b3d3;
-    text-transform: uppercase;
-    text-align: center;
-    border-radius: 0 4px 4px 0;
-    padding: 8px 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #82b3d3;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 0 4px 4px 0;
+  padding: 8px 50px;
 }
 
 .footer_social_block {
@@ -385,14 +384,14 @@ font-weight: 700;
   align-items: center;
 }
 
-.footer_social_block{
- width: 142px;
+.footer_social_block {
+  width: 142px;
   margin-right: 42px;
   list-style-type: none;
 }
 
-.button-social{
- font-weight: 700;
+.button-social {
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: inherit;
@@ -400,88 +399,154 @@ font-weight: 700;
   text-decoration-line: none;
 }
 
-
-.inside_background{
-background-image: url("../images/filters.jpg");
- background-repeat: no-repeat;
+.inside_background {
+  background-image: url("../images/filters.jpg");
+  background-repeat: no-repeat;
   background-size: auto;
   color: #ffffff;
 }
 
-.inside_header_title{
-font-weight: 700;
+.inside_header_title {
+  font-weight: 700;
   font-size: 60px;
   line-height: 78px;
 }
 
-.breadcrumb{
+.breadcrumb {
   list-style-type: none;
 }
 
-.breadcrumb_item_hotel{
-font-weight: 400;
+.breadcrumb_item_hotel {
+  font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   text-decoration-line: none;
-  color:#ffffff;
+  color: #ffffff;
 }
 
-
-.price_item_button{
-border-radius: 4px;
-width: 191px;
-height: 36px;
- background-color: #82b3d3;
+.price_item_button {
+  border-radius: 4px;
+  width: 191px;
+  height: 36px;
+  background-color: #82b3d3;
   padding: 9px 50px;
   border: none;
   text-transform: uppercase;
   color: #ffffff;
 }
 
-
-
-.advantages_plus_town_item{
-float:right;
-margin: top -250px;
+.advantages_plus_town_item {
+  float: right;
+  margin: top -250px;
 }
 
-.filters{
-display: flex;
+.filters {
+  display: flex;
 }
 
-.infrastructure{
-width: 150px;
-height: 157px;
-margin: 0;
-padding: 0;
-border: 0;
-margin-right:70px;
+.infrastructure {
+  width: 150px;
+  height: 157px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-right: 70px;
 }
 
-.infrastructure_title{
+.infrastructure_title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
 }
 
-.infrastructure_filter_items{
- font-weight: 400;
+.infrastructure_filter_items {
+  font-weight: 400;
   font-size: 18px;
   line-height: 23px;
 }
 
-.price{
-border:none;
+.price {
+  border: none;
 }
 
-.button_reset{
-border-radius: 4px;
-width: 191px;
-height: 36px;
-padding: 9px 50px;
+.button_reset {
+  border-radius: 4px;
+  width: 191px;
+  height: 36px;
+  padding: 9px 50px;
   border: none;
   text-transform: uppercase;
-   background-color: rgba(0, 0, 0, 0);
-   color:white;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.select_control {
+ width: 292px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    border-radius: 4px;
+    padding: 14px 20px;
+    float:left;
+}
+
+.pagination_link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.pagination_current {
+  color:black;
+  background-color:#e6e6e6;
+
+}
+
+.product_card_detail{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #756157;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 50px;
+    border: none;
+}
+
+.product_card_button{
+ font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82b3d3;
+  border-radius: 4px;
+  padding: 8px 50px;
+  border: none;
+}
+
+.product_card_button:hover{
+  background-color: #7db54f;
+}
+
+
+.display_menu{
+list-style: none;
+}
+
+.product_card_squares{
+width: 1060px;
+}
+
+.display_menu_link{
+ width: 160px;
 }
