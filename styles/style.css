@@ -30,14 +30,14 @@ body {
 }
 
 .navigation {
-  font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
   display: flex;
   width: 1200px;
   margin: 0 auto;
 }
 
 .menu_list {
-  font-family: "PT Sans", Arial, sans-serif;
+   font-family: "PT Sans", Arial, sans-serif;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -56,7 +56,7 @@ body {
 }
 
 .menu_item {
-  font-family: "PT Sans", Arial, sans-serif;
+   font-family: "PT Sans", Arial, sans-serif;
   list-style-type: none;
   text-decoration: none;
   font-weight: 700;
@@ -124,7 +124,7 @@ body {
 }
 
 .advantages_subtitles {
-  font-family: "PT Sans", Arial, sans-serif;
+   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-align: center;
@@ -154,7 +154,7 @@ body {
 .advantages_area_square,
 .advantages_route_beatiful,
 .advantages_route {
-  font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
@@ -186,14 +186,14 @@ body {
 }
 
 .advantages_ride_generality {
-  font-family: "PT Sans" Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   text-align: center;
 }
 
 .advantages_bridge_item {
-  font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
@@ -208,7 +208,7 @@ body {
 }
 
 .attractions_go {
-  font-family: "PT Sans", Arial, sans-serif;
+   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
@@ -216,14 +216,14 @@ body {
 }
 
 .attractions_text {
-  font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-align: center;
 }
 
 .attractions_house {
-  font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
@@ -267,7 +267,7 @@ body {
 }
 
 .attraction_souvenirs_item {
-  font-family: "PT Sans", Arial, sans-serif;
+   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
@@ -275,14 +275,14 @@ body {
 }
 
 .attractions_description {
-  font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   text-align: center;
 }
 
 .drive_question {
-  font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
@@ -290,7 +290,7 @@ body {
 }
 
 .drive_date {
-  font-family: "PT Sans", Arial, sans-serif;
+   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -327,7 +327,7 @@ body {
 }
 
 .subscribe_title {
-  font-family: "PT Sans", Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
