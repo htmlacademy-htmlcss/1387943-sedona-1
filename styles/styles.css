@@ -484,6 +484,7 @@ body {
   background-color: rgba(0, 0, 0, 0);
   color: white;
   display: flex;
+  float:
 }
 
 .select_control {
@@ -550,4 +551,9 @@ body {
 
 .display_menu_link {
 width: 160px;
+list-style:none;
+}
+
+.display_menu {
+  list-style-type: none;
 }
