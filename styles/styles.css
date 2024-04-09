@@ -27,7 +27,6 @@ body {
   line-height: 21px;
   background-color: #ffffff;
   color: #000000;
-  list-style: none;
 }
 
 .navigation {
@@ -41,12 +40,12 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .user_menu {
   max-width: 300px;
   margin-left: auto;
-  list-style:none ;
 }
 
 .navigation_logo_item {
@@ -64,7 +63,6 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: black;
-  list-style: none;
 }
 
 .button {
@@ -85,7 +83,6 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  list-style:none;
 }
 
 .main_container {
@@ -485,6 +482,8 @@ body {
   text-transform: uppercase;
   background-color: rgba(0, 0, 0, 0);
   color: white;
+  display: flex;
+  float:
 }
 
 .select_control {
