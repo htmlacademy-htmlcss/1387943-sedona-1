@@ -1,0 +1,552 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2z");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2z");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  line-height: 21px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navigation {
+    font-family: "PT Sans", Arial, sans-serif;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.menu_list {
+   font-family: "PT Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.user_menu {
+  max-width: 300px;
+  margin-left: auto;
+}
+
+.navigation_logo_item {
+  font-family: "PT Sans", Arial, sans-serif;
+  width: 138px;
+  height: 64px;
+  margin: right;
+}
+
+.menu_item {
+   font-family: "PT Sans", Arial, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
+  padding: 8px 50px;
+  border: none;
+}
+
+.menu {
+  font-family: "PT Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.main_container {
+  flex-grow: 1;
+}
+
+.page_container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages_titles {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: var(--texts-texts-basic);
+  width: 1200px;
+}
+
+.advantages_subtitles {
+   font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: var(--texts-second);
+}
+.advantages_plus {
+  width: 1200px;
+  background-color: #82b3d3;
+  color: #ffffff;
+}
+
+.advantages_plus_town {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.advantages_plus_life {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+
+.advantages_area_square,
+.advantages_route_beatiful,
+.advantages_route {
+    font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 400px;
+  background-color: rgba(131, 179, 211, 0.12);
+  color: #000000;
+}
+
+.advantages_area_lions {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.advantages_route_driving {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.advantages_ride_tourists {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages_ride_generality {
+    font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.advantages_bridge_item {
+    font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: end;
+}
+
+.advantages_bridge_brave {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: end;
+}
+
+.attractions_go {
+   font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.attractions_text {
+    font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+}
+
+.attractions_house {
+    font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.attractions_recomendation {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.attractions_food_item {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.attractions_recomended,
+.attractions_souvenirs {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.attractions_list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+.attractions_forever {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.attraction_souvenirs_item {
+   font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.attractions_description {
+    font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+
+.drive_question {
+    font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.drive_date {
+   font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+.drive {
+  text-align: center;
+}
+
+.subscrube_container {
+  width: 684px;
+  margin: 0 auto;
+}
+
+.search_button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 8px 50px;
+  border: none;
+}
+
+.subscribe {
+  background-image: url("../images/subscribe.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.subscribe_title {
+    font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: var(--texts-background-deafault);
+}
+
+.susbscribe_desсription {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: var(--texts-background-deafault);
+}
+
+.subscribe_button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #82b3d3;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 0 4px 4px 0;
+  padding: 8px 50px;
+}
+
+.footer_social_block {
+  width: 142px;
+  margin-right: 42px;
+}
+
+.footer_phone {
+  width: 720px;
+  margin-right: 42px;
+  font-weight: 400;
+  font-size: 40px;
+
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration-line: none;
+  color: var(--texts-texts-basic);
+}
+
+.footer_logo {
+  width: 115px;
+  height: 33px;
+  fill: var(--texts-texts-basic);
+}
+
+.footer_container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.footer_social_block {
+  width: 142px;
+  margin-right: 42px;
+  list-style-type: none;
+}
+
+.button-social {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: inherit;
+  text-align: center;
+  text-decoration-line: none;
+}
+
+.inside_background {
+  background-image: url("../images/filters.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #ffffff;
+}
+
+.inside_header_title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumb {
+  list-style-type: none;
+}
+
+.breadcrumb_item_hotel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration-line: none;
+  color: #ffffff;
+}
+
+.price_item_button {
+  border-radius: 4px;
+  width: 191px;
+  height: 36px;
+  background-color: #82b3d3;
+  padding: 9px 50px;
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advantages_plus_town_item {
+  float: right;
+  margin: top -250px;
+}
+
+.filters {
+  display: flex;
+}
+
+.infrastructure {
+  width: 150px;
+  height: 157px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-right: 70px;
+}
+
+.infrastructure_title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.infrastructure_filter_items {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.price {
+  border: none;
+}
+
+.button_reset {
+  border-radius: 4px;
+  width: 191px;
+  height: 36px;
+  padding: 9px 50px;
+  border: none;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.select_control {
+ width: 292px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    border-radius: 4px;
+    padding: 14px 20px;
+    float:left;
+}
+
+.pagination_link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.pagination_current {
+  color:black;
+  background-color:#e6e6e6;
+
+}
+
+.product_card_detail{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #756157;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 50px;
+    border: none;
+}
+
+.product_card_button{
+ font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82b3d3;
+  border-radius: 4px;
+  padding: 8px 50px;
+  border: none;
+}
+
+.product_card_button:hover{
+  background-color: #7db54f;
+}
+
+
+.display_menu{
+list-style: none;
+}
+
+.product_card_squares{
+width: 1060px;
+}
+
+.display_menu_link{
+ width: 160px;
+}
