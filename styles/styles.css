@@ -557,3 +557,7 @@ list-style:none;
 .display_menu {
   list-style-type: none;
 }
+
+.product_card__menu{
+list-style:none;
+}
