@@ -552,6 +552,8 @@ body {
 .display_menu_link {
 width: 160px;
 list-style:none;
+display: flex;
+justify-content:space-between;
 }
 
 .display_menu {
@@ -565,5 +567,13 @@ list-style:none;
 }
 
 .buttons{
-margin-top: 15px;
+margin-top:30px;
+}
+
+.range_item{
+display: flex;
+border-radius: 5px;
+height: 20px;
+ width: 100%;
+  margin: 5px 0;
 }
