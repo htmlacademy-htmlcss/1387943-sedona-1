@@ -555,9 +555,15 @@ list-style:none;
 }
 
 .display_menu {
-  list-style-type: none;
+ list-style-type: none;
+  display:flex;
+  float: inline-end;
 }
 
 .product_card__menu{
 list-style:none;
+}
+
+.buttons{
+margin-top: 15px;
 }
