@@ -1,13 +1,11 @@
-<!-- @format -->
 
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8">
 		<title>Седона</title>
-		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href="styles/styles.css">
 	</head>
-
 	<body>
 		<header class="main_header">
 			<nav class="navigation">
@@ -43,6 +41,7 @@
 		</header>
 
 		<main>
+			<div class="container">
 			<section class="hero">
 				<h1 class="visually-hidden">Cедона</h1>
 				<img class="welcome" src="images/welcome.png" width="458" height="352" alt="Добро пожаловать в великолепную Седону">
@@ -56,7 +55,7 @@
 					<li class="advantages_plus">
 						<h3 class="advantages_plus_town">Настоящий городок</h3>
 						<p class="advantages_plus_life" >Седона — не аттракцион для туристов,там течёт своя жизнь</p>
-						<img src="images/town.jpg" width="800" height="365" alt="Изображение на фоне гор">
+						<img class="advantages_plus_town_item" src="images/town.jpg" width="800" height="365" alt="Изображение на фоне гор">
 					</li>
 
 					<li class="advantages_area">
@@ -85,7 +84,6 @@
 			<section class="attractions">
 				<h2 class="attractions_go">Приезжайте в Седону отдохнуть в кофморте и уюте!</h2>
 				<p class="attractions_text">Опытный персонал и качественное обслуживание!</p>
-
 				<ul class="attractions_list">
 					<li class="attractions_recomended">
 						<h3 class="attractions_house">Жильё</h3>
@@ -108,12 +106,15 @@
 			</section>
 
 			<section class="drive">
+        <div class="drive_container"></div>
 				<h2 class="drive_question">Заинтересовались?</h2>
 				<p class="drive_date">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 				<button class="search_button" type="button">Поиск Гостиницы в Седоне</button>
+      </div>
 			</section>
 
 			<section class="subscribe">
+        <div class="subscrube_container">
 				<h3 сlass="subscribe_title">Подпишитесь на рассылку</h3>
 				<p class="susbscribe_desсription">Только полезная информация и никакого спама, честное бойскаутское</p>
 				<form class="subscribe-form" action="https://htmlacademy.ru/"method="post">
@@ -121,24 +122,27 @@
 					<input type="email" name="subscribe_email" placeholder="Ваш e-mail"id="subscribe_email">
 					<button class="subscribe_button" type="submit">Подписаться</button>
 				</form>
+      </div>
 			</section>
+    </div>
 		</main>
 
 		<footer class="page_footer">
+      <div class="footer_container">
 			<ul class="footer_social_block">
 				<li class="social_item">
-					<a class="button-social"href="https://vk.com/htmlacademy">
+					<a class="button_social"href="https://vk.com/htmlacademy">
 						<span>VK</span>
 					</a>
 				</li>
 
 				<li class="social_item">
-					<a class="button-social"href="https://t.me/htmlacademy">
+					<a class="button_social"href="https://t.me/htmlacademy">
 						<span>Telegram</span>
 					</a>
 				</li>
 				<li class="social_item">
-					<a class="button-social"href="https://www.youtube.com/user/htmlacademyru">
+					<a class="button_social"href="https://www.youtube.com/user/htmlacademyru">
 						<span>YouTube</span>
 					</a>
 				</li>
@@ -148,6 +152,7 @@
 			<a class="copyright" href="https://htmlacademy.ru/">
 				<img class="footer_logo" src="images/logotips.png" width="115" height="70 alt="Логотип htmlacademy">
 			</a>
+			</div>
 		</footer>
 	</body>
 </html>
