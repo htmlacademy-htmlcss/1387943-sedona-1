@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: "PT Sans";
-  src: url("../fonts/ptsans-400.woff2");
+  src: url("../fonts/ptsans-700.woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -22,10 +22,11 @@ body {
   flex-direction: column;
   background-color: #ffffff;
   min-height: 100%;
-  margin: 0, auto;
+  margin: 0 auto;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 21px;
+  width:1200px;
 }
 
 .visually-hidden {
@@ -48,6 +49,8 @@ body {
 
 .navigation_logo_item {
   display: block;
+  margin-bottom:-18px;
+  width: 140px;
 }
 
 .menu_list {
@@ -67,6 +70,7 @@ body {
   font-family: "PT Sans", Arial, sans-serif;
   width: 138px;
   height: 64px;
+  align-self: flex-start;
 }
 
 .navigation_logo {
@@ -84,6 +88,8 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000000;
+  margin-bottom: -38px;
+  font-weight: 700;
 }
 
 .button {
@@ -97,7 +103,7 @@ body {
   border-radius: 4px;
   padding: 8px 50px;
   border: none;
-  margin-top:-20px ;
+  margin-top: -20px;
 }
 
 .menu {
@@ -113,10 +119,9 @@ body {
 }
 
 .main_container {
-flex-grow:1;
-  background-color: #ffffff;
-  width: 1200px;
-  margin: 0 auto;
+
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .container {
@@ -131,19 +136,18 @@ flex-grow:1;
   text-align: center;
   background-color: #82b3d3;
   padding-top: 45px;
-  padding-bottom:82px;
+  padding-bottom: 82px;
 }
-
 .logo {
   display: block;
   margin: 0 auto;
 }
 
-.advantages{
-display: flex;
- flex-direction: column;
- align-items: center;
- padding-top: 69px;
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 69px;
 }
 
 .advantages_list {
@@ -186,11 +190,10 @@ display: flex;
 
 .advantages_plus_town {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight:700;
+  font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
-  text-align:center;
-
+  text-align: center;
 }
 
 .advantages_plus_life {
@@ -208,15 +211,18 @@ display: flex;
   font-size: 24px;
   text-transform: uppercase;
   width: 400px;
-  background-color: #83b3d31f;
   color: #000000;
 }
 
-.advantages_container{
-width: 230px;
+.advantages_area {
+  background-color: #83b3d31f;
+}
+
+.advantages_container {
+  width: 230px;
   min-height: 200px;
   padding: 90px 85px;
-  margin:0,auto;
+  margin: 0 auto;
 }
 
 .advantages_area_lions {
@@ -240,11 +246,8 @@ width: 230px;
   text-align: center;
 }
 
-.advantages_ride_generality {
-  font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  text-align: center;
+.advantages_ride {
+  background-color: #83b3d31f;
 }
 
 .advantages_bridge_item {
@@ -255,11 +258,10 @@ width: 230px;
   text-align: end;
 }
 
-.advantages_bridge{
-display: flex;
-background-color: #82b3d3;
-color:#ffffff;
-
+.advantages_bridge {
+  display: flex;
+  background-color: #82b3d3;
+  color: #ffffff;
 }
 
 .advantages_bridge_brave {
@@ -279,9 +281,13 @@ color:#ffffff;
 
 .attractions_text {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  text-align: center;
+font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 64px;
 }
 
 .attractions_house {
@@ -290,6 +296,7 @@ color:#ffffff;
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
+
 }
 
 .attractions_recomendation {
@@ -308,17 +315,21 @@ color:#ffffff;
 }
 
 .attractions_recomended,
-.attractions_souvenirs {
-  background-color: #83b3d333;
+.attractions_souvenirs,
+.attractions_food{
+  width: 400px;
+  padding: 80px 85px;
+
 }
 
 .attractions_list {
   display: flex;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    text-align: center;
+    list-style-type: none;
 }
 
 .attractions_forever {
@@ -362,15 +373,15 @@ color:#ffffff;
 
 .drive {
   text-align: center;
+  padding: 96px 0;
 }
 
-.subscribe_container{
+.subscribe_container {
     width: 684px;
     margin: 0 auto;
     padding-top: 96px;
     padding-bottom: 104px;
 }
-
 
 .search_button {
   font-weight: 700;
@@ -395,12 +406,12 @@ color:#ffffff;
 .subscribe_title {
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 20px;
-    color:#e6e6e6;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+  color: #e6e6e6;
 }
 
 .susbscribe_desсription {
@@ -408,6 +419,9 @@ color:#ffffff;
   font-weight: 400;
   font-size: 22px;
   text-align: center;
+  margin-bottom: 20px;
+  margin: 0;
+  color: #e6e6e6;
 }
 
 .subscribe_button {
@@ -624,11 +638,44 @@ color:#ffffff;
   list-style: none;
 }
 
-
 .range_item {
   display: flex;
   border-radius: 5px;
   height: 20px;
   width: 100%;
   margin: 5px, 0;
+}
+
+.drive_container{
+width: 592px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.attractions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+}
+
+
+.attractions_recomended{
+background-color: #83b3d333;
+}
+
+.attractions_souvenirs{
+background-color: #83b3d333;
+}
+
+.advantages_route{
+background-color:#83b3d333;
+}
+
+.user_menu,.user_menu_link{
+    min-width: 20px;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-between;
 }
