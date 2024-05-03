@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
@@ -9,10 +8,9 @@
 	<body>
 		<header class="main_header">
 			<nav class="navigation">
-			<a class="navigation_logo" href="index.html">
-					<img class="navigation_logo_item" src="images/logo.jpg" width="140" height="70" alt="Логотип">
+				<a class="navigation_logo" href="index.html">
+					<img class="navigation_logo_item" src="images/logo.png" width="140" height="70" alt="Логотип">
 				</a>
-
 				<ul class="menu">
 					<li class="menu_list">
 						<a class="menu_item" href="index.hmtl">Главная</a>
@@ -93,9 +91,9 @@
         </div>
         </form>
       </header>
-</div>
       </section>
-      <section class="list_hotels">
+      </div>
+      <div class="filter-sorting">
         <h3 class="list_hotels_title">НАЙДЕНО ГОСТИНИЦ:38</h3>
         <select class="select_control" aria-label="Сортировка">
            <option value="popular">Cначала дешёвое</option>
@@ -124,56 +122,69 @@
        <div class="product_card_squares">
         <ul class="product_card__menu">
           <li class="product_card_list">
+            <div class="product_card_container">
             <a class="product_card_item" href="#">
-              <img src="images/amararesortspa.jpg" width="300" height="212" alt="Ущелье с видом на звездное небо">
+              <img class="product_card_image" src="images/amararesortspa.jpg" width="300" height="212" alt="Ущелье с видом на звездное небо">
+               <h3 class="product_card_title">Amara Resort & Spa</h3>
             </a>
-            <h3 class="product_card_title">Amara Resort & Spa</h3>
+            <div class="product_card_information">
               <p class="product_card_hotel">Гостиница</p>
               <p class="product_card_price">От 4000р</p>
               <a class="product_card_detail" href="#">Подробнее</a>
                  <button class="product_card_button" type="button">В Изобранное</button>
                    <span>4 stars</span>
-                     <span>Рейтинг 8.5</span>
+                     <span class="raiting">Рейтинг 8.5</span>
+                     </div>
+                    </div>
           </li>
-
           <li class="product_card_list">
+          <div class="product_card_container">
             <a class="product_card_item" href="#">
-              <img src="images/desertquail.jpg" width="300" height="212" alt="Горные склоны">
+              <img class="product_card_image" src="images/desertquail.jpg" width="300" height="212" alt="Горные склоны">
+              <h3 class="product_card_title">Desert Quail Inn</h3>
             </a>
-            <h3 class="product_card_title">Desert Quail Inn</h3>
+            <div class="product_card_information">
              <p class="product_card_hotel">Гостиница</p>
               <p class="product_card_price">От 2500 ₽</p>
                <a class="product_card_detail" href="#">Подробнее</a>
                  <button class="product_card_button" type="button">В Изобранное</button>
                    <span>3 stars</span>
-                    <span>Рейтинг 6.9</span>
-           </li>
-
+                    <span class="raiting">Рейтинг 6.9</span>
+          </div>
+        </div>
+          </li>
              <li class="product_card_list">
+              <div class="product_card_container">
             <a class="product_card_item" href="#">
-              <img src="images/villasatpocodiablo.jpg" width="300" height="212" alt="Руины">
+              <img class="product_card_image" src="images/villasatpocodiablo.jpg" width="300" height="212" alt="Руины">
+                   <h3>Villas At Poco Diablo</h3>
             </a>
-            <h3>Villas At Poco Diablo</h3>
+ <div class="product_card_information">
              <p class="product_card_hotel">Гостиница</p>
               <p class="product_card_price">От 5000 ₽</p>
                <a class="product_card_detail" href="#">Подробнее</a>
                  <button class="product_card_button" type="button">В Изобранном</button>
                    <span>4 stars</span>
-                    <span>Рейтинг 9.2</span>
-           </li>
-
+                    <span class="raiting">Рейтинг 9.2</span>
+          </div>
+           </div>
+             </li>
          <li class="product_card_list">
+          <div class="product_card_container"></div>
             <a class="product_card_item" href="#">
-              <img src="images/greentree.jpg" width="300" height="212" alt="Горы">
+              <img class="product_card_image" src="images/greentree.jpg" width="300" height="212" alt="Горы">
+              <h3>GreenTree Inn</h3>
             </a>
-            <h3>GreenTree Inn</h3>
+             <div class="product_card_information">
              <p class="product_card_hotel">Гостиница</p>
                <p class="product_card_price">От 2500 ₽</p>
                 <a class="product_card_detail" href="#">Подробнее</a>
                 <button class="product_card_button" type="button">В Изобранное</button>
                     <span>3 stars</span>
-                     <span>Рейтинг 6.9</span>
-          </li>
+                     <span class="raiting">Рейтинг 6.9</span>
+        </div>
+      </div>
+         </li>
            </ul>
 
         <ol class="pagination">
@@ -205,19 +216,19 @@
       </section>
     </main>
 
-
-			<section class="subscribe">
-				<h3 сlass="subscribe_title">Подпишитесь на рассылку</h3>
+		<section class="subscribe">
+        <div class="subscribe_container">
+				<h3 class="subscribe_title">Подпишитесь на рассылку</h3>
 				<p class="susbscribe_desсription">Только полезная информация и никакого спама, честное бойскаутское</p>
 				<form class="subscribe-form" action="https://htmlacademy.ru/"method="post">
 					<label for="subscribe">Email</label>
 					<input type="email" name="subscribe_email" placeholder="Ваш e-mail"id="subscribe_email">
 					<button class="subscribe_button" type="submit">Подписаться</button>
 				</form>
+      </div>
 			</section>
     </div>
 		</main>
-
 
 		<footer class="page_footer">
       <div class="footer_container">

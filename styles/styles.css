@@ -103,10 +103,8 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 	border-radius: 4px;
+	padding: 8px 50px;
 	border: none;
-	padding: 8px 34px;
-	margin: 0;
-	text-decoration-line: none;
 }
 
 .menu {
@@ -482,9 +480,9 @@ body {
 .inside_background {
 	background-image: url('../images/filters.jpg');
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-size: 100% auto;
 	color: #ffffff;
-	background-color: #82b3d3;
+	margin-bottom: 50px;
 }
 
 .inside_header_title {
@@ -493,9 +491,15 @@ body {
 	line-height: 78px;
 }
 
-.list_hotels {
-	display: flex;
-	justify-content: space-between;
+.list_hotels_title {
+	width: 338px;
+	margin: 0;
+	margin-left: 70px;
+	margin-right: 200px;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	text-transform: uppercase;
 }
 
 .breadcrumb {
@@ -523,7 +527,8 @@ body {
 
 .filters {
 	display: flex;
-	list-style-type: none;
+	padding: 70px;
+	padding-top: 0;
 }
 
 .infrastructure {
@@ -541,6 +546,8 @@ body {
 	font-size: 20px;
 	line-height: 24px;
 	text-align: center;
+	padding: 0;
+	margin-bottom: 32px;
 }
 
 .infrastructure_filter_items {
@@ -567,15 +574,19 @@ body {
 }
 
 .select_control {
+	width: 292px;
+	margin-right: 70px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
 	border-radius: 4px;
-	padding: 14px 20px;
-	width: 300px;
-	height: 60px;
-	margin-top: 10px;
-	border-top-style: solid;
+	border-color: #e5e5e5;
+	padding: 14px;
 }
 
 .pagination_link {
+	font-family: 'PT sans', 'Arial', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 36px;
@@ -583,6 +594,9 @@ body {
 	text-decoration: none;
 	color: #ffffff;
 	background-color: #82b3d3;
+	padding: 12px 24px;
+	margin-right: 8px;
+	border-radius: 4px;
 }
 
 .pagination_current {
@@ -591,6 +605,7 @@ body {
 }
 
 .product_card_detail {
+	font-family: 'PT sans', 'Arial', sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 20px;
@@ -599,11 +614,13 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 	border-radius: 4px;
-	padding: 8px 50px;
-	border: none;
+	padding: 9px 22px 8px 23px;
+	text-decoration-line: none;
+	margin: 0;
 }
 
 .product_card_button {
+	font-family: 'PT sans', 'Arial', sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 20px;
@@ -612,9 +629,8 @@ body {
 	color: #ffffff;
 	background-color: #82b3d3;
 	border-radius: 4px;
-	padding: 8px 50px;
+	padding: 8px 20px;
 	border: none;
-	list-style-type: none;
 }
 
 .product_card_button:hover {
@@ -623,6 +639,7 @@ body {
 
 .product_card_squares {
 	width: 1060px;
+	margin: 0 auto;
 }
 
 .display_menu_link {
@@ -631,11 +648,16 @@ body {
 }
 
 .display_menu {
-	list-style-type: none;
+	list-style: none;
 }
 
 .product_card__menu {
-	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(3, 340px);
+	gap: 20px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
 }
 
 .range_item {
@@ -680,4 +702,78 @@ body {
 .user_menu_link_button {
 	min-width: 20px;
 	min-height: 20px;
+}
+
+.product-card-container {
+	width: 300px;
+	margin: 20px auto;
+}
+
+.product_card_item {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: inherit;
+	text-decoration-line: none;
+}
+
+.product_card_list {
+	width: 340px;
+	margin: 20px auto;
+	border: 1px solid #e6e6e6;
+	border-radius: 4px;
+}
+
+.product_card_title {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 16px;
+}
+.product_card_image {
+	object-fit: contain;
+	margin-bottom: 16px;
+}
+
+.product_card_price {
+	text-align: end;
+}
+
+.product_card_information {
+	display: grid;
+	grid-template-columns: 140px 140px;
+	row-gap: 16px;
+	column-gap: 20px;
+	justify-content: space-between;
+}
+
+.pagination {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 80px;
+}
+
+.raiting {
+	width: 95px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 4px;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 9px 22px 8px 23px;
+}
+
+.filter-sorting {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.page_container {
+	width: 1200px;
+	margin: 0 auto;
 }
