@@ -11,6 +11,7 @@
 				<a class="navigation_logo" href="index.html">
 					<img class="navigation_logo_item" src="images/logo.png" width="140" height="70" alt="Логотип">
 				</a>
+
 				<ul class="menu">
 					<li class="menu_list">
 						<a class="menu_item" href="index.hmtl">Главная</a>
@@ -25,14 +26,18 @@
 
 				<ul class="user_menu">
 					<li class="user_menu_link">
+            <span class="visually-hidden">
 						<button class="user_menu_link_button" type="button">Поиск</button>
+            </span>
 					</li>
 
 					<li class="user_menu_link">
+             <span class="visually-hidden">
 						<button class="user_menu_link_button" type="button">Избранное </button>
+             </span>
 					</li>
 					<li>
-						<button class="button">Хочу сюда</button>
+						<button class="button" type="button">Хочу сюда</button>
 					</li>
 				</ul>
 			</nav>
@@ -44,8 +49,8 @@
 <header class="inside_header">
     <h1 class="inside_header_title">Гостиницы Cедоны</h1>
         <ol class="breadcrumb">
-          <li class="breadcrumb_item_home"><a href="index.html">Домой</a></li>
-           <li class="breadcrumb_item_hotel"><a href="#!">Гостиницы</a></li>
+          <li class="breadcrumb_item_home"><a class="breadcrumbs-link" href="index.html">Домой</a></li>
+           <li class="breadcrumb_item_hotel"><a class="breadcrumbs-link" href="#!">Гостиницы</a></li>
         </ol>
         <section class="product_filters">
         <form class="filters" action="https://htmlacademy.ru/" method="get">
@@ -59,7 +64,7 @@
                 <label for="#"> <input type="checkbox">Парковка </label>
               </li>
               <li class="infrastructure_filter_items">
-                <label for="#"> <input type="checkbox">Бассейн </label>
+                <label for="#"> <input type="checkbox">Wi-Fi </label>
               </li>
             </ul>
           </fieldset>
@@ -216,10 +221,10 @@
       </section>
     </main>
 
-		<section class="subscribe">
-        <div class="subscribe_container">
-				<h3 class="subscribe_title">Подпишитесь на рассылку</h3>
-				<p class="susbscribe_desсription">Только полезная информация и никакого спама, честное бойскаутское</p>
+		<section class="subscribes">
+        <div class="subscribes_container">
+				<h3 class="subscribes_title">Подпишитесь на рассылку</h3>
+				<p class="susbscribes_desсription">Только полезная информация и никакого спама, честное бойскаутское</p>
 				<form class="subscribe-form" action="https://htmlacademy.ru/"method="post">
 					<label for="subscribe">Email</label>
 					<input type="email" name="subscribe_email" placeholder="Ваш e-mail"id="subscribe_email">
