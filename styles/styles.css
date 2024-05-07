@@ -440,7 +440,19 @@ font-family: "PT sans", "Arial", sans-serif;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 20px;
+
 }
+
+.susbscribe_desсription {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0;
+ color:
+}
+
 
 .susbscribes_desсription {
   font-family: "PT Sans", Arial, sans-serif;
@@ -844,8 +856,6 @@ margin-left:-45px;
   padding: 96px 0;
 }
 
-
-
 hr{
 width:60px;
 height:0,5px;
@@ -876,6 +886,7 @@ font-weight: 400;
 padding: 35px 70px 0 70px;
     height: 412px;
 }
+
 
 .filters{
     display: flex;
