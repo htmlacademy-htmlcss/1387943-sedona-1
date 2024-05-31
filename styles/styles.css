@@ -75,15 +75,10 @@ body {
   padding: 10px;
 }
 
-.user_menu {
-  max-width: 268px;
-  list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    width: 339px;
+.user_menu{
+display:flex;
+list-style:none;
+justify-content:space-between;
 }
 
 .navigation_logo_item {
@@ -251,6 +246,7 @@ font-family: "PT Sans", Arial, sans-serif;
   width: 1200px;
   background-color: #82b3d3;
   color: #ffffff;
+  justify-content: space-between;
 }
 
 .advantages_plus_town {
@@ -285,10 +281,10 @@ font-family: "PT Sans", Arial, sans-serif;
 }
 
 .advantages_container {
-  width: 230px;
+  min-width: 230px;
   min-height: 200px;
   padding: 90px 85px;
-  hyphens: manual;
+  max-width: 400px;
 }
 
 .advantages_area_lions {
@@ -449,7 +445,6 @@ font-family: "PT Sans", Arial, sans-serif;
     margin: 0 auto;
     padding-top: 96px;
     padding-bottom: 104px;
-    height: 200px;
 }
 
 .subscribes_container {
@@ -633,6 +628,8 @@ display: flex;
 
 .breadcrumb {
   list-style-type: none;
+  display: flex;
+
 }
 
 .breadcrumb_item_hotel {
@@ -642,7 +639,7 @@ display: flex;
     line-height: 21px;
     text-decoration-line: none;
     color: #ffffff;
-    margin-left: -40px;
+    margin-left:-23px;
 }
 
 .price_item_button {
@@ -772,13 +769,6 @@ display: flex;
   background-color: #83b3d333;
 }
 
-.user_menu,
-.user_menu_link {
-      min-width: 20px;
-    min-height: 20px;
-}
-
-
 
 .user_menu_link_button {
   min-width: 20px;
@@ -838,7 +828,7 @@ display: flex;
 }
 
 .raiting {
-  width: 95px;
+  width: 140px;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -921,12 +911,6 @@ padding: 35px 70px 0 70px;
 }
 
 
-.filters{
-    display: flex;
-    padding: 0;
-    margin:0;
-}
-
 .breadcrumbs-link{
 font-family: "PT sans", "Arial", sans-serif;
     font-weight: 400;
@@ -945,19 +929,6 @@ font-family: "PT sans", "Arial", sans-serif;
     text-decoration-line: none;
     color: #ffffff;
     margin-left: -40px;
-}
-
-.raiting{
-    width: 95px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    border-radius: 4px;
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 9px 22px 8px 23px;
 }
 
 
@@ -1079,8 +1050,9 @@ right:-185px ;
 }
 
 .range_input{
-width: 100px;
-height: 32px;
+width: 120px;
+height: 44px;
+margin:15px;
 }
 
 .price{
@@ -1091,7 +1063,7 @@ border:none;
 .filters{
     display: flex;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 44px;
     line-height: 23px;
 }
 
@@ -1105,7 +1077,6 @@ border:none;
 .infrastructure_title{
 margin: 0;
     padding: 0;
-    margin-bottom: 32px;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -1113,7 +1084,7 @@ margin: 0;
 
 .infrastructure_filter{
 width: 150px;
-    margin: 0;
+
     list-style-type: none;
 }
 
@@ -1133,10 +1104,8 @@ position: relative;
 .infrastructures_title{
 margin: 0;
     padding: 0;
-    margin-bottom: 32px;
     font-size: 20px;
     font-weight: 700;
-    line-height: 24px;
 
 }
 
@@ -1156,12 +1125,13 @@ position: absolute;
 
 .infrastructure_filter_items{
 list-style:none ;
+margin-bottom:20px;
 }
 
 .price_item{
  margin: 0;
     padding: 0;
-    margin-bottom: 32px;
+    margin-bottom:8px;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -1170,16 +1140,13 @@ list-style:none ;
 .buttons{
 min-width: 191px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
     flex-direction: column;
-    order: 10;
+    align-self:center;
 }
 
 
 .stars{
-min-width: 18px;
-    min-height: 18px;
+width: 18px;
     background-color: #ffffff;
     background-image: url("../images/star.svg");
     background-repeat:space no-repeat;
@@ -1206,3 +1173,53 @@ background-repeat: no-repeat;
  .infrastructure_filter_label:active .control_radio {
   background-color: rgb(255, 255, 255, 0.6);
  }
+
+
+ .infrastructures_filter{
+list-style: none;
+ }
+
+
+.range{
+margin:36px;
+}
+
+
+.range_wrapper_inputs{
+margin-top:-6px;
+}
+
+
+.user_menu_item_favorites:before{
+  position: absolute;
+  content: "12";
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #7db54f;
+  border-radius: 50%;
+  z-index: 1;
+  top: 11px;
+}
+
+
+.user_menu_icon{
+  margin: 10px;
+}
+
+
+.star_one{
+background-color: #ffffff;
+    background-image: url("../images/star.svg");
+    background-repeat:space no-repeat;
+    background-position: top 10px left;
+}
+
+
+.star_two{
+background-color: #ffffff;
+    background-image: url("../images/star.svg");
+    background-repeat:space no-repeat;
+    background-position: top 10px left;
+}
