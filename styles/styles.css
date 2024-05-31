@@ -114,15 +114,15 @@ font-family: "PT Sans", Arial, sans-serif;
 }
 
 .menu_items::after{
-  position: absolute;
+ position: absolute;
     content: "";
     left: -2px;
     bottom: 0;
     height: 2px;
     background-color: #756257;
     margin-bottom: -20px;
-    width: 92px;
-    margin-left: 3px;
+    width: 67px;
+    margin-left: 2px;
 }
 
 
