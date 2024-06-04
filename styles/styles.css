@@ -1,3 +1,5 @@
+/** @format */
+
 @font-face {
   font-family: "PT Sans";
   src: url("../fonts/ptsans-400.woff2");
@@ -78,12 +80,6 @@ body {
   justify-content: space-between;
 }
 
-.navigation_logo_item {
-  font-family: "PT Sans", Arial, sans-serif;
-  width: 138px;
-  height: 64px;
-  align-self: flex-start;
-}
 
 .menu_item {
   font-family: "PT Sans", Arial, sans-serif;
@@ -107,6 +103,7 @@ body {
   font-weight: 700;
   position: relative;
   display: block;
+  padding-bottom: 0;
 }
 
 .menu_items::after {
@@ -218,14 +215,15 @@ body {
 
 .advantages_titles {
   font-family: "PT Sans", Arial, sans-serif;
-  width: 620px;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 25px;
+margin: 0;
+    margin-bottom: 25px;
+    width: 660px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .advantages_subtitles {
@@ -342,6 +340,16 @@ body {
   text-transform: uppercase;
   text-align: center;
   margin: 0;
+}
+
+.advantages_bridge_item::after{
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .advantages_bridge {
@@ -1476,8 +1484,4 @@ body {
 
 .plus {
   transform: translateX(-100%) translateX(-10px) translateY(14px);
-}
-
-.growns_count_label {
-  grid-column: 3 / 4;
 }
