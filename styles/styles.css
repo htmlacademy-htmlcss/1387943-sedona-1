@@ -76,9 +76,10 @@ body {
 
 .user_menu {
   display: flex;
-  list-style: none;
-  justify-content: space-between;
-  margin-left: -26px;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: -28px;
+    margin-top: 24px;
 }
 
 
@@ -145,20 +146,21 @@ body {
 }
 
 .button {
-  width: 160px;
-  padding: 8px 34px;
-  align-self: center;
-  font-family: "PT Sans", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  color: #ffffff;
-  background-color: #756157;
-  border-style: none;
-  border-radius: 4px;
-  text-transform: uppercase;
-  cursor: pointer;
-   margin-left: 26px;
+width: 160px;
+    padding: 8px 34px;
+    align-self: center;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #756157;
+    border-style: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 18px;
+    margin-top: 3px;
 }
 
 .menu {
@@ -377,15 +379,15 @@ margin-top:28px;
 
 
 .attractions_go {
-  font-family: "PT Sans", Arial, sans-serif;
-  width: 620px;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-  margin: -27px;
-    margin-bottom: 20px;
+    font-family: "PT Sans", Arial, sans-serif;
+    width: 620px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: -23px;
+    margin-bottom: 21px;
 }
 
 .attractions_text {
@@ -416,12 +418,12 @@ margin-top:28px;
 }
 
 .attractions_food_item {
-     font-family: "PT Sans", Arial, sans-serif;
+font-family: "PT Sans", Arial, sans-serif;
     font-weight: 700;
     font-size: 24px;
     text-transform: uppercase;
     text-align: center;
-    margin: 35px;
+    margin: 32px;
 
 }
 
@@ -459,11 +461,11 @@ margin-top:28px;
 }
 
 .attractions_description {
-    font-family: "PT Sans", Arial, sans-serif;
+       font-family: "PT Sans", Arial, sans-serif;
     font-weight: 400;
     font-size: 18px;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 32px
 }
 
 .drive_question {
@@ -584,21 +586,17 @@ width: 684px;
   border-style: none;
 }
 
-.footer_social_block {
-  width: 142px;
-  margin-right: 42px;
-}
-
 .footer_phone {
-  width: 720px;
-  margin-right: 42px;
-  font-weight: 400;
-  font-size: 40px;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration-line: none;
-  color: #000;
-  margin-top: 12px;
+width: 720px;
+    margin-right: 42px;
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-line: none;
+    color: #000;
+    margin-top: 11px
+
 }
 
 
@@ -607,9 +605,11 @@ width: 684px;
 }
 
 .footer_logo {
-  width: 115px;
-  height: 33px;
-  fill: #000;
+    width: 115px;
+    height: 33px;
+    fill: #000;
+    margin-top: 5px;
+    margin-left: -3px;
 }
 
 .footer_container {
@@ -618,12 +618,6 @@ width: 684px;
     margin: 0px auto;
     padding-top: 47px;
     background-color: #ffffff;
-}
-
-.footer_social_block {
-  width: 142px;
-  margin-right: 42px;
-  list-style-type: none;
 }
 
 .button_social {
@@ -639,14 +633,14 @@ width: 684px;
 }
 
 .footer_social_block {
-  display: flex;
-  flex-wrap: wrap;
-  width: 145px;
-  margin: 0;
-  margin-right: 41px;
-  margin-left: 70px;
-  padding: 0;
-  list-style-type: none;
+display: flex;
+    flex-wrap: wrap;
+    width: 145px;
+    margin-right: 41px;
+    margin-left: 70px;
+    padding: 0;
+    list-style-type: none;
+    margin-top: 0px;
 }
 
 .inside_background {
@@ -812,12 +806,11 @@ width: 684px;
 }
 
 .product_card_title {
-  font-family: "PT sans", "Arial", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 16px;
+
+    font-family: "PT sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
 }
 .product_card_image {
   object-fit: contain;
@@ -978,6 +971,7 @@ font-family: "PT Sans", Arial, sans-serif;
 
 .product_card_rows {
   grid-column: 1/-1;
+    margin-top: 15px;
 }
 
 .product_card_image {
@@ -1164,7 +1158,7 @@ margin-left: -29px;
 }
 
 .user_menu_icon {
-  margin: 10px;
+  margin: 12px;
 }
 
 .star_one {
@@ -1188,20 +1182,20 @@ margin-left: -29px;
 }
 
 .price {
-    position: relative;
+      position: relative;
     padding: 0;
     margin: 0;
     width: 288px;
     border: none;
     left: 60px;
-    bottom: -33px;
+    bottom: -12px;
 }
 
 .price_container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0px;
-  margin-bottom: 41px;
+     display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-bottom: 44px;
 }
 
 .price_minimum {
@@ -1310,8 +1304,8 @@ margin-left: -29px;
 }
 
 .price_title {
-  font-weight: 700;
-margin-bottom: 13px;
+    font-weight: 700;
+    margin-bottom: 32px;
 }
 
 .products_container {
