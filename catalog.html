@@ -14,7 +14,7 @@
 
     <ul class="menu">
       <li class="menu_list">
-        <a class="menu_items" href="index.html">Главная</a>
+        <a class="menu_item" href="index.html">Главная</a>
       </li>
 
       <li class="menu_list">
@@ -22,7 +22,7 @@
       </li>
 
       <li class="menu_list">
-        <a class="menu_item" href="catalog.html">Гостиницы</a>
+        <a class="menu_itemes" href="catalog.html">Гостиницы</a>
       </li>
     </ul>
 
@@ -55,19 +55,19 @@
 
         <ol class="breadcrumb">
           <li class="breadcrumb_item_home">
-            <a class="breadcrumbs-link" href="index.html">
+            <a class="breadcrumbs_link" href="index.html">
               <span class="visually-hidden">Главная</span>
               <svg class="breadcrumbs_svg" aria-hidden="true" focusable="false" width="13" height="13"
                 viewBox="0 0 13 13" fill="white" xmlns="http://www.w3.org/2000/svg">
                 <path
-                  d="M6.5 0.5L0.5 6.30006V12.5001H12.5V6.30006L6.5 0.5ZM11.5 11.5001H1.5V6.70005L6.5 1.9L11.5 6.70005V11.5001Z">
-                <path d="M4.5 10.5001H5.5V8.00005H7.5V10.5001H8.5V7.00005H4.5V10.5001Z">
+                  d="M6.5 0.5L0.5 6.30006V12.5001H12.5V6.30006L6.5 0.5ZM11.5 11.5001H1.5V6.70005L6.5 1.9L11.5 6.70005V11.5001Z"></path>
+                <path d="M4.5 10.5001H5.5V8.00005H7.5V10.5001H8.5V7.00005H4.5V10.5001Z"></path>
               </svg>
             </a>
           </li>
 
           <li class="breadcrumb_item_hotel">
-            <a class="breadcrumbs-link" href="#">Гостиницы</a>
+            <a class="breadcrumbs_link" href="#">Гостиницы</a>
           </li>
         </ol>
 
@@ -101,7 +101,7 @@
             </fieldset>
 
             <fieldset class="infrastructures">
-              <legend class="infrastructures_title">Тип жилья</legend>
+              <legend class="infrastructures_title">Тип Жилья:</legend>
 
               <ul class="infrastructures_filter">
                 <li class="infrastructures_filter_items">
@@ -125,7 +125,7 @@
             </fieldset>
 
             <fieldset class="price">
-              <legend class="price_title"> Стоимость, ₽::</legend>
+              <legend class="price_title"> Стоимость, ₽:</legend>
               <div class="price_container">
                 <label class="price_minimum" for="price_minimum">от</label>
                 <input class="price_input minimum" type="number" name="price_minimum" id="price_minimum" value="0">
@@ -157,9 +157,9 @@
     <div class="filter-sorting">
       <h3 class="list_hotels_title">НАЙДЕНО ГОСТИНИЦ: 38</h3>
       <select class="select_control" aria-label="Сортировка">
-        <option value="popular">Cначала дешёвое</option>
+        <option value="popular">Cначала дешёвые</option>
         <option value="cheap">Cначала популярное</option>
-        <option value="expensive">Cначала Сначала дорогое</option>
+        <option value="expensive">Cначала дорогое</option>
       </select>
 
       <ul class="display_menu">
@@ -201,8 +201,8 @@
         <p class="product_card_price">От 4000 ₽</p>
         <a class="product_card_detail" href="#">Подробнее</a>
         <button class="product_card_button" type="button">В избранное</button>
-        <span class="stars"></span>
-        <span class="raiting">Рейтинг 8.5</span>
+        <span class="star_one"></span>
+        <span class="raiting">Рейтинг: 8,5</span>
       </li>
 
       <li class="product_card_list">
@@ -217,9 +217,9 @@
         <p class="product_card_hotel">Гостиница</p>
         <p class="product_card_price">От 5000 ₽</p>
         <a class="product_card_detail" href="#">Подробнее</a>
-        <button class="product_card_button" type="button">В избранном</button>
-        <span class="stars"></span>
-        <span class="raiting">Рейтинг 9.2</span>
+        <button class="product_card_button favorites" type="button">В избранном</button>
+        <span class="stars_two"></span>
+        <span class="raiting">Рейтинг: 9,2</span>
       </li>
 
       <li class="product_card_list">
@@ -235,8 +235,8 @@
         <p class="product_card_price">От 2500 ₽</p>
         <a class="product_card_detail" href="#">Подробнее</a>
         <button class="product_card_button" type="button">В избранное</button>
-        <span class="stars"></span>
-        <span class="raiting">Рейтинг 6.9</span>
+        <span class="stars_three"></span>
+        <span class="raiting">Рейтинг: 6,9</span>
       </li>
 
       <li class="product_card_list">
@@ -248,12 +248,12 @@
           <h3 class="product_card_title">GreenTree Inn</h3>
         </a>
 
-        <p class="product_card_hotel">Гостиница/p>
-        <p class="product_card_price">От 2500р</p>
+        <p class="product_card_hotel">Гостиница</p>
+        <p class="product_card_price value_item">От 1500 ₽</p>
         <a class="product_card_detail" href="#">Подробнее</a>
-        <button class="product_card_button" type="button">В Изобранное</button>
-        <span class="stars"></span>
-        <span class="raiting">Рейтинг 6.9</span>
+        <button class="product_card_button" type="button">В избранное</button>
+        <span class="stars_four"></span>
+        <span class="raiting raiting_info">Рейтинг: 5,0</span>
       </li>
     </ul>
     </div>
@@ -276,7 +276,7 @@
       </li>
 
       <li class="pagination_item">
-        <a class="pagination_link">..</a>
+        <a class="pagination_links">...</a>
       </li>
 
       <li class="pagination_item">
