@@ -900,7 +900,7 @@ background-color: white;
 }
 
 .select_control:focus{
-  outline: 2px solid  #756;
+  outline: 1px solid  #756;
 }
 
 .select_control:active{
