@@ -1,33 +1,83 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Форма</title>
-  </head>
-  <body>
-    <h1>Поиск гостиницы в Седоне</h1>
-    <form>
-      <p>Дата заезда: <input type="date" name="calendar" /></p>
-    </form>
+<html lang="RU">
+<head>
+  <meta charset="UTF-8">
+  <title>Window</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div class="modal_container">
+  <div class="modal">
+    <button class="modal_window_button" type="button">
+      <span class="visually-hidden">Закрыть</span>
+      <svg class="modal_close_window"aria-hidden="true" focusable="false"width="14" height="14" viewBox="0 0 14 14" fill="black" xmlns="http://www.w3.org/2000/svg"> <path d="M14 1.29231L12.7077 0L7 5.70769L1.29231 0L0 1.29231L5.70769 7L0 12.7077L1.29231 14L7 8.29231L12.7077 14L14 12.7077L8.29231 7L14 1.29231Z"></svg>
+    </button>
 
-    <form>
-      <p>Дата выезда</p>
-      <input type="date" name="calendar" />
-    </form>
+    <section class="modal_window_content">
+      <h1 class="visually-hidden">Модальное окно</h1>
+      <form class="modal_form" action="https://echo.htmlacademy.ru/" method="post">
+        <fieldset class="modal_form_window">
+          <legend class="modal_form_tilte">Поиск гостиницы в Седоне</legend>
 
-    <div class="nunbers">
-      <p>Взролсые</p>
-      <span class="minus">-</span>
-      <input type="text" value="2" />
-      <span class="plus">+</span>
-    </div>
+          <div class="check_in_container">
+            <label class="modal_form_label" for="date">Дата Заезда:</label>
+            <input class="modal_form_input date_input" type="text" id="date" name="date" value="27 апреля 2020" placeholder="Укажите дату" required>
+            <span class="modal_form_text mistake">Мы не можем отправить вас в прошлое.</span>
+          </div>
 
-    <div class="nunber">
-      <p>Дети</p>
-      <span class="minus">-</span>
-      <input type="text" value="1" />
-      <span class="plus">+</span>
-    </div>
-    <button class="button">Найти</button>
-  </body>
+          <div class="going_container">
+            <label class="modal_form_label" for="date">Дата Выезда:</label>
+            <input class="modal_form_input date_input" type="text" id="date" name="date" value="1 сентября 2023" placeholder="Укажите дату" required>
+            <span class="modal_form_text">На эти даты есть свободные номера. Пока есть.</span>
+          </div>
+
+          <div class="test">
+          <div class="adult">
+            <label class="modal_form_label grown_count_label" for="grown_count">Взрослые:</label>
+            <div class="button_group">
+              <button class="button_grown minus" type="button">
+                <span class="visually-hidden">Уменьшить количество</span>
+                <span class="button_score">
+                <svg class="button_svg"aria-hidden="true" focusable="false" width="14" height="2" viewBox="0 0 14 2" fill="#756157" fill-opacity="0.3" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0L0 2L14 2V0L0 0Z"></svg></span>
+              </button>
+              <input class="modal_form_input score_input" type="number" id="grown_count" name="grown_count" min="0" required value="2" >
+              <button class="button_grown plus" type="button">
+                <span class="visually-hidden">Увеличить количество</span>
+                <span class="buttons_image">
+                <svg class="button_svg" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 14 14" fill="#756157" fill-opacity="0.3" xmlns="http://www.w3.org/2000/svg"> <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z"></svg></span>
+              </button>
+            </div>
+          </div>
+
+
+          <div class="testing">
+            <div class="kids_container">
+              <label class="modal_form_label grown_count_label" for="grown_count">Дети:</label>
+                <span class="tooltip">
+                  <button class="tooltips_button" type="button" aria-labelledby="tooltip_label"></button>
+                  <span class="tooltip_texts">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно</span>
+                </span>
+                <div class="button_group">
+                  <button class="button_grown minuss" type="button">
+                    <span class="visually-hidden">Уменьшить количество</span>
+                    <span class="button_score">
+                    <svg class="button_svg"aria-hidden="true" focusable="false" width="14" height="2" viewBox="0 0 14 2" fill="#756157" fill-opacity="0.3" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0L0 2L14 2V0L0 0Z"></svg></span>
+                  </button>
+                  <input class="modal_form_input score_input" type="number" id="grown_count" name="grown_count" min="0" required value="2" >
+                  <button class="button_grown plus" type="button">
+                    <span class="visually-hidden">Увеличить количество</span>
+                    <span class="buttons_image">
+                    <svg class="button_svg" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 14 14" fill="#756157" fill-opacity="0.3" xmlns="http://www.w3.org/2000/svg"> <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z"></svg></span>
+                  </button>
+                </div>
+            </div>
+            </div>
+          </div>
+        </fieldset>
+        <button class="modal_searth_button" type="submit">Найти</button>
+      </form>
+    </section>
+  </div>
+</div>
+</body>
 </html>
