@@ -53,8 +53,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   align-items: center;
-  height: 64px;
-  padding: 0, 70px;
+  min-height: 64px;
   position: relative;
 }
 
@@ -63,9 +62,13 @@ body {
   margin-left: 70px;
   margin-right: 47px;
   width: 140px;
-  margin-top: 3px;
   cursor: pointer;
 }
+
+.navigation_logo{
+  align-self: flex-start;
+}
+
 .navigation_logo:focus {
   outline: 3px solid #83b3d3;
   border-radius: 4px;
@@ -86,14 +89,15 @@ body {
   margin: 5px;
   padding: 10px;
   cursor: pointer;
+  margin-top: -13px;
 }
 
 .user_menu {
   display: flex;
-  list-style: none;
-  justify-content: space-between;
-  margin-left: -28px;
-  margin-top: 24px;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: -28px;
+    margin-top: 10px;
 }
 
 .menu_item {
@@ -243,7 +247,7 @@ body {
     url("../images/background.png");
   text-align: center;
   background-color: #82b3d3;
-  padding-top: 50px;
+  padding-top: 35px;
   padding-bottom: 80px;
   background-repeat: no-repeat, no-repeat;
   background-size: 100% 57px, 100% auto;
@@ -471,8 +475,9 @@ body {
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
-  margin: 31px;
+  margin: 32px;
 }
+
 
 .attractions_recomended,
 .attractions_souvenirs,
@@ -482,6 +487,7 @@ body {
 }
 
 .attractions_list {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   margin: 0;
@@ -522,8 +528,8 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  margin: -17px;
-  margin-bottom: 21px;
+  margin: -16px;
+  margin-bottom: 22px;
 }
 
 .drive_date {
@@ -551,8 +557,8 @@ body {
 .subscribes_container {
   width: 684px;
   margin: 9px auto;
-  padding-top: 96px;
-  margin-bottom: 102px;
+  padding-top: 98px;
+  padding-bottom: 93px;
 }
 
 .search_button {
@@ -611,7 +617,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   color: #ffffff;
 }
 
@@ -652,16 +658,17 @@ body {
 
 .subscribe_button {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
-  color: #ffffff;
-  background-color: #82b3d3;
-  text-transform: uppercase;
-  border-radius: 0 4px 4px 0;
-  padding: 8px 50px;
-  border-style: none;
-  cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #82b3d3;
+    text-transform: uppercase;
+    border-radius: 0 4px 4px 0;
+    padding: 8px 50px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: -2px;
 }
 
 .subscribe_button :hover {
@@ -792,13 +799,14 @@ body {
 
 .inside_header_title {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 78px;
-  margin: 0;
-  color: #ffffff;
-  border: none;
-  list-style-type: none;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    margin: 0;
+    color: #ffffff;
+    border: none;
+    list-style-type: none;
+    margin-top: -12px;
 }
 
 .list_hotels_title {
@@ -810,6 +818,8 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+margin-top: -15px;
+
 }
 
 .breadcrumb {
@@ -892,6 +902,8 @@ body {
   appearance: none;
   padding-left: 19px;
   cursor: pointer;
+  margin-top: -14px;
+  background-color: #ffffff;
 }
 
 .select_control:hover{
@@ -899,7 +911,7 @@ background-color: white;
 }
 
 .select_control:focus{
-  outline: 1px solid  #756;
+  outline: 2px solid  #756;
 }
 
 .select_control:active{
@@ -1091,8 +1103,9 @@ background-color: white;
   padding: 0;
   list-style-type: none;
   margin-left: 70px;
-  margin-top: 41px;
+  margin-top: 46px;
 }
+
 
 .pagination_link:hover {
   background-color: #68a2ca;
@@ -1146,8 +1159,9 @@ background-color: white;
 .filter-sorting {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
+
 
 .page_container {
   width: 1200px;
@@ -1211,7 +1225,7 @@ background-color: white;
 
 .inside_header {
   padding: 35px 70px 0 70px;
-  height: 412px;
+  min-height: 412px;
 }
 
 .breadcrumbs_link {
@@ -1238,7 +1252,7 @@ background-color: white;
   font-size: 24px;
   text-decoration: none;
   grid-column: 1 / -1;
-  height: 216px;
+  height: 218px;
 }
 
 .product_card_item:hover {
@@ -1272,15 +1286,16 @@ background-color: white;
   justify-content: center;
   border: 1px solid #e6e6e6;
   row-gap: 17px;
-  padding: 16px;
-  padding-bottom: 20px;
+  padding: 15px;
+  padding-bottom: 12px;
 }
 
 .product_card_rows {
   grid-column: 1 / -1;
-  margin-top: 1px;
+  margin-top: 10px;
   cursor: pointer;
 }
+
 
 .product_card_rows:hover{
   color: #756157;
@@ -1296,9 +1311,10 @@ background-color: white;
 
 .product_card_image {
   width: 100%;
-  height: 212px;
+  height: 224px;
   object-fit: cover;
 }
+
 
 .product_card_hotel {
   margin: 0;
@@ -1329,13 +1345,14 @@ background-color: white;
 }
 
 .display_menu_link {
-  padding: 12px 14px 10px;
+  padding: 16px 15px 4px;
   width: 160px;
   border: 2px solid #000000;
   border-radius: 4px;
-  margin: 0;
-  margin-right: 8px;
+  margin: -1px;
+  margin-right: 7px;
 }
+
 
 .display_menu_link:hover {
   border: 2px solid #000000;
@@ -1350,12 +1367,12 @@ background-color: white;
 }
 
 .display_menu_links {
-  padding: 11px 14px;
+  padding: 17px 14px 2px;
   width: 160px;
   border-radius: 4px;
   margin: 0;
   margin-right: 8px;
-  border: 2px solid #e5e5e5;
+  border: 2px solid #e5e5e5
 }
 
 .display_menu_links:hover {
@@ -2104,6 +2121,15 @@ background-color: white;
   color: #ff5757;
 }
 
+.menu_items:hover {
+  color: #756157;
+}
+
+.menu_items:focus {
+  outline: 3px solid #83b3d3;
+  border-radius: 4px;
+}
+
 .button_group {
   position: relative;
   margin-left: 32px
@@ -2113,6 +2139,7 @@ background-color: white;
 .score_input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
+
 
 .price_input::-webkit-outer-spin-button,
 .price_input::-webkit-inner-spin-button {
