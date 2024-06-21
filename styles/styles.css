@@ -60,16 +60,16 @@ body {
 .navigation_logo_item {
   display: block;
   margin-left: 70px;
-  margin-right: 47px;
   width: 140px;
   cursor: pointer;
   margin-top: -6px;
+  margin-right: 40px;
 }
 
-.navigation_logo{
+.navigation_logo {
   align-self: flex-start;
   position: relative;
-  top:6px;
+  top: 6px;
 }
 
 .navigation_logo:focus {
@@ -90,18 +90,18 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 5px;
-  padding: 10px;
   cursor: pointer;
   margin-top: 6px;
+  margin-right: 25px;
 }
 
 .user_menu {
   display: flex;
-    list-style: none;
-    justify-content: space-between;
-    margin:0;
-    margin-left: -28px;
-    margin-top: 4px;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  margin-left: -28px;
+  margin-top: 4px;
 }
 
 .menu_item {
@@ -109,14 +109,13 @@ body {
   list-style-type: none;
   text-decoration: none;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 7px;
   color: #000000;
   font-weight: 700;
   position: relative;
   display: block;
-  margin-bottom: -1px;
-  margin-left: -18px;
-  margin-right: 20px;
+  margin-bottom: 2px;
+  margin-right: 4px;
   cursor: pointer;
 }
 
@@ -144,8 +143,6 @@ body {
   position: relative;
   display: block;
   margin-bottom: 2px;
-  margin-left: -18px;
-  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -228,11 +225,11 @@ body {
   flex-wrap: wrap;
   align-items: center;
   padding: 0;
-  margin:0;
-  width: 339px;
-  margin-right: 285px;
+  margin: 0;
+  margin-right: 231px;
   list-style-type: none;
   font-family: "PT Sans", Arial, sans-serif;
+  width: 400px;
 }
 
 .main_container {
@@ -379,7 +376,7 @@ body {
   font-size: 18px;
   text-align: center;
   margin-top: 31px;
-  color:#333333;
+  color: #333333;
 }
 
 .advantages_ride_tourists {
@@ -390,6 +387,7 @@ body {
   text-align: center;
   margin-top: 29px;
 }
+
 .advantages_ride_tourists::after {
   content: "";
   display: block;
@@ -399,9 +397,11 @@ body {
   margin: -8px auto;
   margin-top: 37px;
 }
+
 .advantages_ride {
   background-color: #83b3d31f;
 }
+
 .advantages_bridge_item {
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
@@ -466,8 +466,8 @@ body {
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
-  margin: 30px;
-  margin-top: 29px;
+  margin: 36px;
+  margin-top: 102px;
 }
 
 .attractions_recomendation {
@@ -475,7 +475,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  color:#333333;
+  color: #333333;
 }
 
 .attractions_food_item {
@@ -484,9 +484,9 @@ body {
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
-  margin: 32px;
+  margin: 35px;
+  margin-top: 103px;
 }
-
 
 .attractions_recomended,
 .attractions_souvenirs,
@@ -511,7 +511,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  color:#333333;
+  color: #333333;
 }
 
 .attraction_souvenirs_item {
@@ -520,7 +520,8 @@ body {
   font-size: 24px;
   text-transform: uppercase;
   text-align: center;
-  margin: 24px;
+  margin: 27px;
+  margin-top: 103px;
 }
 
 .attractions_description {
@@ -530,7 +531,7 @@ body {
   font-size: 18px;
   text-align: center;
   margin-top: 34px;
-  color:#333333;
+  color: #333333;
 }
 
 .drive_question {
@@ -550,7 +551,7 @@ body {
   line-height: 26px;
   color: #333333;
   margin: 0;
-  margin-bottom: 55px;
+  margin-bottom: 52px;
 }
 
 .drive {
@@ -576,14 +577,15 @@ body {
   font-family: "PT sans", "Arial", sans-serif;
   font-weight: 700;
   font-size: 20px;
-  line-height: 35px;
+  line-height: 40px;
   text-transform: uppercase;
   text-align: center;
-  padding: 8px 50px;
+  padding: 6px 50px;
   background-color: #756157;
   color: #ffffff;
   border-style: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .search_button:hover {
@@ -592,7 +594,6 @@ body {
 
 .search_button:focus {
   background-color: #615048;
-  outline: 3px solid #83b3d3;
 }
 
 .search_button:active {
@@ -669,17 +670,17 @@ body {
 
 .subscribe_button {
   font-family: "PT Sans", Arial, sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    color: #ffffff;
-    background-color: #82b3d3;
-    text-transform: uppercase;
-    border-radius: 0 4px 4px 0;
-    padding: 8px 50px;
-    border-style: none;
-    cursor: pointer;
-    margin-top: -2px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #82b3d3;
+  text-transform: uppercase;
+  border-radius: 0 4px 4px 0;
+  padding: 8px 50px;
+  border-style: none;
+  cursor: pointer;
+  margin-top: -2px;
 }
 
 .subscribe_button :hover {
@@ -717,16 +718,15 @@ body {
 }
 
 .footer_phone:focus {
-  outline: 3px solid  #756157;
   border-radius: 4px;
 }
 
-.footer_phone:active{
- color:#756157;
+.footer_phone:active {
+  color: #756157;
 }
 
 .footer_phone {
-  color:#000;
+  color: #000;
 }
 
 .photo_mountains {
@@ -742,18 +742,17 @@ body {
   cursor: pointer;
 }
 
-.footer_link:hover{
-  color: #756157;
+.footer_link:hover path {
+  fill: #756157;
 }
 
-.footer_link:focus{
-  outline: 3px solid  #756157;
-  border-radius: 4px;
+.footer_link:focus path {
+  fill: #756157;
 }
 
-.footer_link:active{
-  color:#756157;
- }
+.footer_link:active path {
+  fill: rgba(117, 97, 87, 0.3)
+}
 
 .footer_container {
   display: flex;
@@ -776,18 +775,17 @@ body {
   cursor: pointer;
 }
 
-.button_social:hover{
-    color: #756157;
-  }
+.button_social:hover path {
+  fill: #68a2ca;
+}
 
-  .button_social:focus {
-    outline: 3px solid #83b3d3;
-    border-radius: 4px;
-  }
+.button_social:focus path {
+  fill: #68a2ca;
+}
 
-  .button_social:active {
-    color: rgba(117, 97, 87, 0.3);
-  }
+.button_social:active path {
+  fill: rgba(104, 162, 202, 0.3);
+}
 
 .footer_social_block {
   display: flex;
@@ -802,6 +800,7 @@ body {
 
 .inside_background {
   background-image: url("../images/filtres.jpg");
+  background-color: #68a2ca;
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -810,14 +809,14 @@ body {
 
 .inside_header_title {
   font-family: "PT Sans", Arial, sans-serif;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 78px;
-    margin: 0;
-    color: #ffffff;
-    border: none;
-    list-style-type: none;
-    margin-top: -12px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  margin: 0;
+  color: #ffffff;
+  border: none;
+  list-style-type: none;
+  margin-top: -12px;
 }
 
 .list_hotels_title {
@@ -829,7 +828,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  margin-top:-17px;
+  margin-top: -17px;
 }
 
 .breadcrumb {
@@ -839,7 +838,7 @@ body {
   padding-left: 0;
   margin-top: 8px;
   margin-bottom: 28px;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   max-width: 70%;
 }
 
@@ -903,7 +902,7 @@ body {
   font-family: "PT Sans";
   width: 292px;
   margin-right: 70px;
-  margin-top:-17px;
+  margin-top: -17px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -918,15 +917,15 @@ body {
   background-color: #ffffff;
 }
 
-.select_control:hover{
-background-color: white;
+.select_control:hover {
+  background-color: white;
 }
 
-.select_control:focus{
-  outline: 2px solid  #756;
+.select_control:focus {
+  outline: 2px solid #756;
 }
 
-.select_control:active{
+.select_control:active {
   background-color: white;
 }
 
@@ -1065,11 +1064,56 @@ background-color: white;
 }
 
 .attractions_recomended {
+  position: relative;
   background-color: #83b3d333;
+}
+
+.attractions_recomended::after {
+  content: "";
+  position: absolute;
+  top: 80px;
+  right: 161px;
+  width: 75px;
+  height: 70px;
+  background-image: url("/images/houses.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+}
+
+.attractions_food {
+  position: relative;
+}
+
+.attractions_food::after {
+  content: "";
+  position: absolute;
+  top: 80px;
+  right: 161px;
+  width: 75px;
+  height: 70px;
+  background-image: url("/images/food.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
 }
 
 .attractions_souvenirs {
   background-color: #83b3d333;
+  position: relative;
+}
+
+.attractions_souvenirs::before {
+  content: "";
+  position: absolute;
+  top: 76px;
+  right: 167px;
+  width: 65px;
+  height: 75px;
+  background-image: url("/images/souvenirss.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
 }
 
 .advantages_route {
@@ -1210,7 +1254,7 @@ background-color: white;
   font-size: 18px;
   text-align: center;
   margin-top: 30px;
-  color:#333333;
+  color: #333333;
 }
 
 .search {
@@ -1224,7 +1268,7 @@ background-color: white;
   text-align: center;
   margin-top: 38px;
   margin-left: 3px;
-  color:#333333;
+  color: #333333;
 }
 
 .susbscribe_desсription {
@@ -1310,16 +1354,16 @@ background-color: white;
 }
 
 
-.product_card_rows:hover{
+.product_card_rows:hover {
   color: #756157;
 }
 
-.product_card_rows:focus{
+.product_card_rows:focus {
   border: 2px solid #68a2ca;
 }
 
-.product_card_rows:active{
-  color:#7561574d;
+.product_card_rows:active {
+  color: #7561574d;
 }
 
 .product_card_image {
@@ -1356,7 +1400,7 @@ background-color: white;
   padding: 0;
   max-width: 170px;
   flex-wrap: wrap;
-  margin-top:17px;
+  margin-top: 17px;
 }
 
 .display_menu_link {
@@ -1368,7 +1412,7 @@ background-color: white;
   margin-right: 7px;
 }
 
-.display_menu_linkss{
+.display_menu_linkss {
   width: 56px;
   height: 55px;
 }
@@ -1568,10 +1612,11 @@ background-color: white;
 .user_menu_item_favorites:hover {
   color: #756157;
 }
-.user_menu_item_favorites:focus{
+
+.user_menu_item_favorites:focus {
   color: #83b3d3;
   border-radius: 4px;
-  }
+}
 
 .user_menu_item_favorites:active {
   color: #7561574d
@@ -1638,9 +1683,9 @@ background-color: white;
   outline: 3px solid #83b3d3;
 }
 
-.price_input:active{
-    background-color: #e6e6e6;
-    outline: 3px solid #e6e6e6;
+.price_input:active {
+  background-color: #e6e6e6;
+  outline: 3px solid #e6e6e6;
 }
 
 .price_maximum {
@@ -1837,7 +1882,7 @@ background-color: white;
 }
 
 .menu_items:active {
-  color:#7561574d;
+  color: #7561574d;
 }
 
 .user_menu_item:hover .user_menu_icon {
@@ -1854,19 +1899,19 @@ background-color: white;
 }
 
 .user_menu_item_favorites:active {
-    fill: rgba(117, 97, 87, 0.3);
+  fill: rgba(117, 97, 87, 0.3);
 }
 
-.user_menu_item_favorites:focus{
+.user_menu_item_favorites:focus {
   outline: 3px solid #83b3d3;
   border-radius: 4px;
 }
 
-.user_menu_item_favorites:hover{
+.user_menu_item_favorites:hover {
   fill: #756157;
 }
 
-.user_menu_item_favorites{
+.user_menu_item_favorites {
   cursor: pointer;
 }
 
@@ -1979,14 +2024,13 @@ background-color: white;
 
 .modal_searth_button:focus {
   background-color: #68a2ca;
-  outline: 3px solid #83b3d3;
 }
 
 .modal_search_button:active {
   opacity: 0.3;
 }
 
-.kids_container .modal_form_label{
+.kids_container .modal_form_label {
   margin-right: 2px;
 }
 
@@ -2169,6 +2213,7 @@ background-color: white;
 .price_input {
   -moz-appearance: textfield;
 }
+
 .score_input {
   -moz-appearance: textfield;
 }
