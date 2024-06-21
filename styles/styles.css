@@ -66,10 +66,10 @@ body {
   margin-right: 40px;
 }
 
-.navigation_logo {
+.navigation_logo{
   align-self: flex-start;
   position: relative;
-  top: 6px;
+  top:6px;
 }
 
 .navigation_logo:focus {
@@ -97,11 +97,11 @@ body {
 
 .user_menu {
   display: flex;
-  list-style: none;
-  justify-content: space-between;
-  margin: 0;
-  margin-left: -28px;
-  margin-top: 4px;
+    list-style: none;
+    justify-content: space-between;
+    margin:0;
+    margin-left: -28px;
+    margin-top: 4px;
 }
 
 .menu_item {
@@ -225,7 +225,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   padding: 0;
-  margin: 0;
+  margin:0;
   margin-right: 231px;
   list-style-type: none;
   font-family: "PT Sans", Arial, sans-serif;
@@ -376,7 +376,7 @@ body {
   font-size: 18px;
   text-align: center;
   margin-top: 31px;
-  color: #333333;
+  color:#333333;
 }
 
 .advantages_ride_tourists {
@@ -387,7 +387,6 @@ body {
   text-align: center;
   margin-top: 29px;
 }
-
 .advantages_ride_tourists::after {
   content: "";
   display: block;
@@ -397,11 +396,9 @@ body {
   margin: -8px auto;
   margin-top: 37px;
 }
-
 .advantages_ride {
   background-color: #83b3d31f;
 }
-
 .advantages_bridge_item {
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 700;
@@ -462,12 +459,12 @@ body {
 
 .attractions_house {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 36px;
-  margin-top: 102px;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 36px;
+    margin-top: 102px;
 }
 
 .attractions_recomendation {
@@ -475,7 +472,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  color: #333333;
+  color:#333333;
 }
 
 .attractions_food_item {
@@ -511,7 +508,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
-  color: #333333;
+  color:#333333;
 }
 
 .attraction_souvenirs_item {
@@ -531,7 +528,7 @@ body {
   font-size: 18px;
   text-align: center;
   margin-top: 34px;
-  color: #333333;
+  color:#333333;
 }
 
 .drive_question {
@@ -670,17 +667,17 @@ body {
 
 .subscribe_button {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 20px;
-  color: #ffffff;
-  background-color: #82b3d3;
-  text-transform: uppercase;
-  border-radius: 0 4px 4px 0;
-  padding: 8px 50px;
-  border-style: none;
-  cursor: pointer;
-  margin-top: -2px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #82b3d3;
+    text-transform: uppercase;
+    border-radius: 0 4px 4px 0;
+    padding: 8px 50px;
+    border-style: none;
+    cursor: pointer;
+    margin-top: -2px;
 }
 
 .subscribe_button :hover {
@@ -721,12 +718,12 @@ body {
   border-radius: 4px;
 }
 
-.footer_phone:active {
-  color: #756157;
+.footer_phone:active{
+ color:#756157;
 }
 
 .footer_phone {
-  color: #000;
+  color:#000;
 }
 
 .photo_mountains {
@@ -742,17 +739,17 @@ body {
   cursor: pointer;
 }
 
-.footer_link:hover path {
+.footer_link:hover path{
   fill: #756157;
 }
 
-.footer_link:focus path {
+.footer_link:focus path{
   fill: #756157;
 }
 
-.footer_link:active path {
-  fill: rgba(117, 97, 87, 0.3)
-}
+.footer_link:active path{
+  fill: rgba(117,97, 87, 0.3)
+ }
 
 .footer_container {
   display: flex;
@@ -775,17 +772,17 @@ body {
   cursor: pointer;
 }
 
-.button_social:hover path {
-  fill: #68a2ca;
-}
+.button_social:hover path{
+    fill: #68a2ca;
+  }
 
-.button_social:focus path {
-  fill: #68a2ca;
-}
+  .button_social:focus path {
+    fill: #68a2ca;
+  }
 
-.button_social:active path {
-  fill: rgba(104, 162, 202, 0.3);
-}
+  .button_social:active path {
+    fill: rgba(104, 162, 202, 0.3);
+  }
 
 .footer_social_block {
   display: flex;
@@ -809,14 +806,14 @@ body {
 
 .inside_header_title {
   font-family: "PT Sans", Arial, sans-serif;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 78px;
-  margin: 0;
-  color: #ffffff;
-  border: none;
-  list-style-type: none;
-  margin-top: -12px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    margin: 0;
+    color: #ffffff;
+    border: none;
+    list-style-type: none;
+    margin-top: -12px;
 }
 
 .list_hotels_title {
@@ -828,7 +825,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  margin-top: -17px;
+  margin-top:-17px;
 }
 
 .breadcrumb {
@@ -838,7 +835,7 @@ body {
   padding-left: 0;
   margin-top: 8px;
   margin-bottom: 28px;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   max-width: 70%;
 }
 
@@ -902,7 +899,7 @@ body {
   font-family: "PT Sans";
   width: 292px;
   margin-right: 70px;
-  margin-top: -17px;
+  margin-top:-17px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -917,15 +914,15 @@ body {
   background-color: #ffffff;
 }
 
-.select_control:hover {
-  background-color: white;
+.select_control:hover{
+background-color: white;
 }
 
-.select_control:focus {
-  outline: 2px solid #756;
+.select_control:focus{
+  outline: 2px solid  #756;
 }
 
-.select_control:active {
+.select_control:active{
   background-color: white;
 }
 
@@ -1068,34 +1065,34 @@ body {
   background-color: #83b3d333;
 }
 
-.attractions_recomended::after {
-  content: "";
-  position: absolute;
-  top: 80px;
-  right: 161px;
-  width: 75px;
-  height: 70px;
-  background-image: url("/images/houses.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 100% 100%;
+.attractions_recomended::after{
+content: "";
+position:absolute;
+top: 80px;
+right: 161px;
+width: 75px;
+height: 70px;
+background-image: url("/images/houses.svg");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: 100% 100%;
 }
 
-.attractions_food {
+.attractions_food{
   position: relative;
 }
 
-.attractions_food::after {
+.attractions_food::after{
   content: "";
-  position: absolute;
+  position:absolute;
   top: 80px;
   right: 161px;
   width: 75px;
   height: 70px;
-  background-image: url("/images/food.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 100% 100%;
+background-image: url("/images/food.svg");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: 100% 100%;
 }
 
 .attractions_souvenirs {
@@ -1103,17 +1100,17 @@ body {
   position: relative;
 }
 
-.attractions_souvenirs::before {
+.attractions_souvenirs::before{
   content: "";
   position: absolute;
   top: 76px;
   right: 167px;
   width: 65px;
   height: 75px;
-  background-image: url("/images/souvenirss.svg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 100% 100%;
+background-image: url("/images/souvenirss.svg");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: 100% 100%;
 }
 
 .advantages_route {
@@ -1254,7 +1251,7 @@ body {
   font-size: 18px;
   text-align: center;
   margin-top: 30px;
-  color: #333333;
+  color:#333333;
 }
 
 .search {
@@ -1268,7 +1265,7 @@ body {
   text-align: center;
   margin-top: 38px;
   margin-left: 3px;
-  color: #333333;
+  color:#333333;
 }
 
 .susbscribe_desсription {
@@ -1354,16 +1351,16 @@ body {
 }
 
 
-.product_card_rows:hover {
+.product_card_rows:hover{
   color: #756157;
 }
 
-.product_card_rows:focus {
+.product_card_rows:focus{
   border: 2px solid #68a2ca;
 }
 
-.product_card_rows:active {
-  color: #7561574d;
+.product_card_rows:active{
+  color:#7561574d;
 }
 
 .product_card_image {
@@ -1400,7 +1397,7 @@ body {
   padding: 0;
   max-width: 170px;
   flex-wrap: wrap;
-  margin-top: 17px;
+  margin-top:17px;
 }
 
 .display_menu_link {
@@ -1412,7 +1409,7 @@ body {
   margin-right: 7px;
 }
 
-.display_menu_linkss {
+.display_menu_linkss{
   width: 56px;
   height: 55px;
 }
@@ -1612,11 +1609,10 @@ body {
 .user_menu_item_favorites:hover {
   color: #756157;
 }
-
-.user_menu_item_favorites:focus {
+.user_menu_item_favorites:focus{
   color: #83b3d3;
   border-radius: 4px;
-}
+  }
 
 .user_menu_item_favorites:active {
   color: #7561574d
@@ -1683,9 +1679,9 @@ body {
   outline: 3px solid #83b3d3;
 }
 
-.price_input:active {
-  background-color: #e6e6e6;
-  outline: 3px solid #e6e6e6;
+.price_input:active{
+    background-color: #e6e6e6;
+    outline: 3px solid #e6e6e6;
 }
 
 .price_maximum {
@@ -1882,7 +1878,7 @@ body {
 }
 
 .menu_items:active {
-  color: #7561574d;
+  color:#7561574d;
 }
 
 .user_menu_item:hover .user_menu_icon {
@@ -1899,19 +1895,19 @@ body {
 }
 
 .user_menu_item_favorites:active {
-  fill: rgba(117, 97, 87, 0.3);
+    fill: rgba(117, 97, 87, 0.3);
 }
 
-.user_menu_item_favorites:focus {
+.user_menu_item_favorites:focus{
   outline: 3px solid #83b3d3;
   border-radius: 4px;
 }
 
-.user_menu_item_favorites:hover {
+.user_menu_item_favorites:hover{
   fill: #756157;
 }
 
-.user_menu_item_favorites {
+.user_menu_item_favorites{
   cursor: pointer;
 }
 
@@ -2030,7 +2026,7 @@ body {
   opacity: 0.3;
 }
 
-.kids_container .modal_form_label {
+.kids_container .modal_form_label{
   margin-right: 2px;
 }
 
@@ -2213,7 +2209,6 @@ body {
 .price_input {
   -moz-appearance: textfield;
 }
-
 .score_input {
   -moz-appearance: textfield;
 }
