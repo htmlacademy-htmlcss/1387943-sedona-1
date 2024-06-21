@@ -252,7 +252,7 @@ body {
     url("../images/background.png");
   text-align: center;
   background-color: #82b3d3;
-  padding-top: 35px;
+  padding-top: 50px;
   padding-bottom: 80px;
   background-repeat: no-repeat, no-repeat;
   background-size: 100% 57px, 100% auto;
@@ -302,6 +302,7 @@ body {
   color: #333333;
   margin: 0;
   margin-bottom: 69px;
+  max-width: 70%;
 }
 
 .advantages_plus {
@@ -378,6 +379,7 @@ body {
   font-size: 18px;
   text-align: center;
   margin-top: 31px;
+  color:#333333;
 }
 
 .advantages_ride_tourists {
@@ -455,6 +457,7 @@ body {
   color: #333333;
   margin: -3px;
   margin-bottom: 66px;
+  max-width: 70%;
 }
 
 .attractions_house {
@@ -472,6 +475,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
+  color:#333333;
 }
 
 .attractions_food_item {
@@ -507,6 +511,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   text-align: center;
+  color:#333333;
 }
 
 .attraction_souvenirs_item {
@@ -525,6 +530,7 @@ body {
   font-size: 18px;
   text-align: center;
   margin-top: 34px;
+  color:#333333;
 }
 
 .drive_question {
@@ -609,7 +615,7 @@ body {
 
 .subscribe {
   background-image: url("../images/subscribe.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   background-color: #82b3d3;
@@ -797,9 +803,9 @@ body {
 .inside_background {
   background-image: url("../images/filtres.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   color: #ffffff;
-  margin-bottom: 50px;
+  margin-bottom: 47px;
 }
 
 .inside_header_title {
@@ -823,8 +829,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-margin-top: -15px;
-
+  margin-top:-17px;
 }
 
 .breadcrumb {
@@ -834,6 +839,8 @@ margin-top: -15px;
   padding-left: 0;
   margin-top: 8px;
   margin-bottom: 28px;
+  flex-wrap:wrap;
+  max-width: 70%;
 }
 
 .breadcrumbs_link:hover {
@@ -875,7 +882,7 @@ margin-top: -15px;
   width: 8px;
   height: 13px;
   top: 4px;
-  left: 22px;
+  right: -17px;
   background-image: url(/images/arrows.svg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -889,13 +896,14 @@ margin-top: -15px;
   line-height: 21px;
   text-decoration-line: none;
   color: #ffffff;
-  margin-left: -23px;
+  margin-left: 28px;
 }
 
 .select_control {
   font-family: "PT Sans";
   width: 292px;
   margin-right: 70px;
+  margin-top:-17px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -907,7 +915,6 @@ margin-top: -15px;
   appearance: none;
   padding-left: 19px;
   cursor: pointer;
-  margin-top: -14px;
   background-color: #ffffff;
 }
 
@@ -1108,7 +1115,7 @@ background-color: white;
   padding: 0;
   list-style-type: none;
   margin-left: 70px;
-  margin-top: 46px;
+  margin-top: 39px;
 }
 
 
@@ -1164,7 +1171,7 @@ background-color: white;
 .filter-sorting {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 
@@ -1203,6 +1210,7 @@ background-color: white;
   font-size: 18px;
   text-align: center;
   margin-top: 30px;
+  color:#333333;
 }
 
 .search {
@@ -1216,6 +1224,7 @@ background-color: white;
   text-align: center;
   margin-top: 38px;
   margin-left: 3px;
+  color:#333333;
 }
 
 .susbscribe_desсription {
@@ -1229,7 +1238,7 @@ background-color: white;
 }
 
 .inside_header {
-  padding: 35px 70px 0 70px;
+  padding: 47px 70px 0 70px;
   min-height: 412px;
 }
 
@@ -1240,7 +1249,6 @@ background-color: white;
   line-height: 21px;
   text-decoration-line: none;
   color: #ffffff;
-  margin-right: 52px;
 }
 
 .breadcrumb_item_home {
@@ -1292,12 +1300,12 @@ background-color: white;
   border: 1px solid #e6e6e6;
   row-gap: 17px;
   padding: 15px;
-  padding-bottom: 12px;
+  padding-bottom: 19px;
 }
 
 .product_card_rows {
   grid-column: 1 / -1;
-  margin-top: 10px;
+  margin-top: 2px;
   cursor: pointer;
 }
 
@@ -1316,10 +1324,9 @@ background-color: white;
 
 .product_card_image {
   width: 100%;
-  height: 224px;
+  height: 212px;
   object-fit: cover;
 }
-
 
 .product_card_hotel {
   margin: 0;
@@ -1347,10 +1354,13 @@ background-color: white;
   list-style: none;
   margin: 0;
   padding: 0;
+  max-width: 170px;
+  flex-wrap: wrap;
+  margin-top:17px;
 }
 
 .display_menu_link {
-  padding: 16px 15px 4px;
+  padding: 10px 14px;
   width: 160px;
   border: 2px solid #000000;
   border-radius: 4px;
@@ -1358,6 +1368,10 @@ background-color: white;
   margin-right: 7px;
 }
 
+.display_menu_linkss{
+  width: 56px;
+  height: 55px;
+}
 
 .display_menu_link:hover {
   border: 2px solid #000000;
@@ -1372,7 +1386,7 @@ background-color: white;
 }
 
 .display_menu_links {
-  padding: 17px 14px 2px;
+  padding: 10px 14px;
   width: 160px;
   border-radius: 4px;
   margin: 0;
@@ -2086,6 +2100,7 @@ background-color: white;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 48px;
+  flex-wrap: wrap;
 }
 
 .check_in_container {
