@@ -92,7 +92,7 @@ body {
   margin: 5px;
   cursor: pointer;
   margin-top: 6px;
-  margin-right: 25px;
+  margin-right: 23px;
 }
 
 .user_menu {
@@ -114,9 +114,10 @@ body {
   font-weight: 700;
   position: relative;
   display: block;
-  margin-bottom: 2px;
+  padding: 14px 0;
   margin-right: 4px;
   cursor: pointer;
+  left: 3px;
 }
 
 .menu_item:hover {
@@ -142,47 +143,56 @@ body {
   font-weight: 700;
   position: relative;
   display: block;
-  margin-bottom: 2px;
   cursor: pointer;
+  padding: 14px 0;
 }
 
 .menu_items::after {
   position: absolute;
   content: "";
   left: -2px;
-  bottom: 0;
   height: 2px;
   background-color: #756257;
-  margin-bottom: -22px;
+  bottom: -5px;
   width: 68px;
   margin-left: 2px;
 }
 
 .menu_itemes {
   font-family: "PT Sans", Arial, sans-serif;
-  list-style-type: none;
-  text-decoration: none;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000000;
-  font-weight: 700;
-  position: relative;
-  display: block;
-  margin-bottom: -2px;
-  margin-left: -18px;
-  margin-right: 20px;
-  cursor: pointer;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 7px;
+    color: #000000;
+    font-weight: 700;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 14px 0
 }
 
-.menu_itemes::after {
+.menu_itemes::after{
   position: absolute;
   content: "";
-  left: 1px;
-  bottom: 0;
+  left: -4px;
   height: 2px;
   background-color: #756257;
-  margin-bottom: -22px;
-  width: 92px;
+  bottom: -16px;
+  width: 93px;
+}
+
+.menu_itemes:hover {
+  color: #756157;
+}
+
+.menu_itemes:focus {
+  outline: 3px solid #83b3d3;
+  border-radius: 4px;
+}
+
+.menu_itemes:active {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .button {
@@ -708,6 +718,7 @@ body {
   color: #000;
   margin-top: 8px;
   cursor: pointer;
+  outline: none;
 }
 
 .footer_phone:hover {
@@ -716,10 +727,12 @@ body {
 
 .footer_phone:focus {
   border-radius: 4px;
+  outline: none;
+  color: #756157;
 }
 
 .footer_phone:active{
- color:#756157;
+ color:rgba(117, 97, 87 ,0.3);
 }
 
 .footer_phone {
@@ -731,13 +744,18 @@ body {
 }
 
 .footer_logo {
-  width: 115px;
-  height: 33px;
-  fill: #000;
-  margin-top: 2px;
-  margin-left: -3px;
-  cursor: pointer;
-}
+    width: 115px;
+    height: 33px;
+    fill: #000;
+    margin-top: 2px;
+    margin-left: -3px;
+    cursor: pointer;
+    outline: none;
+  }
+
+.footer_logo:focus{
+    outline: none;
+ }
 
 .footer_link:hover path{
   fill: #756157;
@@ -745,11 +763,13 @@ body {
 
 .footer_link:focus path{
   fill: #756157;
+  outline: none;
 }
 
 .footer_link:active path{
   fill: rgba(117,97, 87, 0.3)
  }
+
 
 .footer_container {
   display: flex;
@@ -776,12 +796,16 @@ body {
     fill: #68a2ca;
   }
 
+  .button_social:focus{
+    outline: none;
+  }
+
   .button_social:focus path {
     fill: #68a2ca;
   }
 
   .button_social:active path {
-    fill: rgba(104, 162, 202, 0.3);
+    fill:rgba(104, 162, 202, 0.3);
   }
 
 .footer_social_block {
@@ -912,19 +936,23 @@ body {
   padding-left: 19px;
   cursor: pointer;
   background-color: #ffffff;
+  border: 2px solid #e5e5e5;
 }
 
 .select_control:hover{
-background-color: white;
-}
-
-.select_control:focus{
-  outline: 2px solid  #756;
-}
-
-.select_control:active{
+  border: 2px solid #68a2ca;
   background-color: white;
-}
+  }
+
+  .select_control:focus{
+    border: 2px solid #68a2ca;
+    background-color: white;
+  }
+
+  .select_control:active{
+    border: 2px solid #3F5E72;
+    background-color: white;
+  }
 
 .pagination_link {
   display: block;
@@ -1915,10 +1943,15 @@ background-size: 100% 100%;
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
+  display: none;
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
+  z-index: 9999;
+}
+
+.modal_container--open{
+  display: flex;
 }
 
 .modal {
@@ -1981,6 +2014,20 @@ background-size: 100% 100%;
   line-height: 24px;
 }
 
+.modal_form_input:hover{
+  background-color: #E6E6E6;
+}
+
+.modal_form_input:focus{
+  border: 3px solid #83B3D3;
+  background-color: #E6E6E6;
+}
+
+.modal_form_input:active{
+  border: 2px solid #000000;
+  background-color: #F2F2F2;
+}
+
 .date_input {
   position: relative;
   align-self: center;
@@ -2020,10 +2067,12 @@ background-size: 100% 100%;
 
 .modal_searth_button:focus {
   background-color: #68a2ca;
+  outline: none;
 }
 
-.modal_search_button:active {
-  opacity: 0.3;
+.modal_searth_button:active {
+  background-color: #68A2CA;
+  color: rgba(255,255, 255, 0.3);
 }
 
 .kids_container .modal_form_label{
