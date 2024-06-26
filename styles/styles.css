@@ -1980,6 +1980,19 @@ background-size: 100% 100%;
   cursor: pointer;
 }
 
+.modal_window_button:hover{
+background-color: #f2f2f2;
+}
+
+.modal_window_button:focus{
+  background-color: #f2f2f2;
+  border: 3px solid #83b3d3;
+}
+
+.modal_window_button:active{
+background-color: #e6e6e6;
+}
+
 .modal_form_window {
   margin: 0;
   padding: 0;
@@ -2162,8 +2175,8 @@ background-size: 100% 100%;
 
 .minus {
   transform: translateX(10px) translateY(14px);
+  border:1px solid #000000;
 }
-
 
 .minuss {
   transform: translateX(10px) translateY(14px);
